@@ -216,8 +216,8 @@
     
                 </a>
     
-                <a class="flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100"
-                    href="/dash_project">
+                <a class="{{(Route::currentRouteName()==='projects')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
+                href={{ route('projects') }}>
                     
                     <span class="mx-3">المشاريع </span>
 
@@ -230,8 +230,8 @@
     
                 </a>
 
-                <a class="flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100"
-                href="/dash_commet">
+                <a class="{{(Route::currentRouteName()==='comments')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
+                href={{ route('comments') }}>
                 
                 <span class="mx-3">التعليقات </span>
 
@@ -246,8 +246,8 @@
                   
 
             </a>
-            <a class="flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100"
-            href="/dash_offers">
+            <a class="{{(Route::currentRouteName()==='offers')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
+            href={{ route('offers') }}>
             
             <span class="mx-3">العروض </span>
 

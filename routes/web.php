@@ -4,6 +4,8 @@ use App\Http\Controllers\admin\HomeController;
 use App\Http\Controllers\admin\ProjectController;
 use App\Http\Controllers\admin\SectionController;
 use App\Http\Controllers\admin\SkillsController;
+use App\Http\Controllers\admin\CommentsController;
+use App\Http\Controllers\admin\offersController;
 
 
 use App\Http\Controllers\HomeController as ControllersHomeController;
@@ -39,6 +41,8 @@ Route::get('/admin', [homeController::class, 'home'])->name('admin');
 Route::get('/admin/section', [sectionController::class, 'section'])->name('section');
 Route::get('/admin/skills', [skillsController::class, 'index'])->name('skills');
 Route::get('/admin/projects', [projectController::class, 'index'])->name('projects');
+Route::get('/admin/comments', [commentsController::class, 'index'])->name('comments');
+Route::get('/admin/offers', [offersController::class, 'index'])->name('offers');
 
 
 // section CRUD
