@@ -1,6 +1,14 @@
 <?php
-namespace App\Http\Controllers;
-namespace App\Http\Controllers\admin;
+
+use App\Http\Controllers\admin\HomeController;
+use App\Http\Controllers\admin\ProjectController;
+use App\Http\Controllers\admin\SectionController;
+use App\Http\Controllers\admin\SkillsController;
+
+
+use App\Http\Controllers\HomeController as ControllersHomeController;
+
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +26,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Auth::routes(['verify'=>true]);
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 
 
 
@@ -46,3 +57,4 @@ Route::post('/admin/del_skills/{id}', [skillsController::class, 'destroy'])->nam
 Route::get('/admin/edit_skills/{id}', [skillsController::class, 'edit'])->name('edit_skills');
 Route::post('/admin/update_skills/{id}', [skillsController::class, 'update'])->name('update_skills');
 Route::get('/admin/status-update_skills/{id}', [skillsController::class, 'status_update'])->name('status_update');
+

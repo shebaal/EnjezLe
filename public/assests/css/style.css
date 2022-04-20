@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    direction: rtl;
+}
+
+:root {
+    --main1: #1c88a2;
+    --basic: #023047;
+    --main: #8ecae6;
+    --basic2: #219ebc;
+    --light_gray: #ecf0f3;
+    --white: #ffff;
+    --light_main: #f1f9fc;
+}
+
+.resetPassContainer {
+    background: url(../svg/undraw_my_password_re_ydq7.svg);
+    background-repeat: no-repeat;
+    background-position: 61%;
+}
+
+.reset {
+    max-width: 350px;
+    min-height: 370px;
+    padding: 40px 30px 30px 30px;
+    background-color: var(--light_gray);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.reset:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.reset .form-field {
+    padding-left: 19px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid var(--basic2);
+    background-color: #fcfcfc;
+    width: 258px;
+}
+
+.reset .logo {
+    width: 80px;
+    margin: auto
+}
+
+.reset .logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.reset .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: var(--main);
+}
+
+.reset .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: var(--basic2);
+    padding: 10px 15px 10px 10px;
+    font-size: 14px;
+}
+
+.reset .form-field .fas {
+    color: var(--basic2);
+    padding-right: 28px;
+}
+
+.reset .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: var(--basic2);
+    color: var(--light_gray);
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px var(--light_gray);
+    letter-spacing: 1.3px
+}
+
+.reset .btn:hover {
+    background-color: var(--main);
+}
+
+.dan_mesg_po {
+    position: absolute;
+    top: 36px;
+    /* width: 360px; */
+    filter: drop-shadow(2px 4px 6px gray);
+    left: 435px;
+}
+
+@media(max-width: 380px) {
+    .reset {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px
+    }
+}
+
+
+/*************login****************/
+
+.login_Container {
+    background-color: var(--light_gray);
+}
+
+.login_Container .background {
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.login_Container .background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.login_Container .shape:last-child {
+    background: linear-gradient( to right, var(--main), #ffffff);
+    /* right: -30px; */
+    bottom: -80px;
+}
+
+.login_Container form {
+    margin-top: 88px;
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 36px 35px;
+    display: grid;
+    gap: 12px;
+}
+
+.login_Container form * {
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.login_Container form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.login_Container label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login_Container input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 300;
+    border: 1px solid var(--main);
+}
+
+.login_Container input[type="checkbox"] {
+    height: 23px;
+    width: 23px;
+}
+
+.login_Container .social div,
+.login_Container button {
+    color: var(--light_gray);
+    text-align: center;
+    background-color: var(--basic2);
+}
+
+.login_Container .social div:hover,
+.login_Container button:hover {
+    background-color: rgba(255, 255, 255, 0.47);
+    color: var(--basic2);
+}
+
+.login_Container button,
+.login_Container .social div {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login_Container .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--basic2);
+    font-size: 14px;
+}
+
+.login_Container .social {
+    display: grid;
+    gap: 14px;
+}
+
+@media(min-width: 786px) {
+    .login_Container .background {
+        height: 520px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        background-image: url(../svg/undraw_login_re_4vu2.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    .login_Container .social {
+        margin-top: 12px;
+        display: flex;
+    }
+    .login_Container form {
+        margin-top: 0px;
+    }
+    .login_Container .social div {
+        width: 150px;
+        border-radius: 5px;
+        padding: 5px 10px 10px 5px;
+    }
+}
