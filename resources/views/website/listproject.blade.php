@@ -63,7 +63,7 @@
         <div class="row mb-2 " style=" direction: rtl;   ">
 
             <div class="col-md-4">
-                <div class="card flex-md-row mb-4 box-shadow h-md-250" style="background: #e7e5e52e;">
+                <div class="card flex-md-row mb-4 box-shadow h-md-250 h-100" style="background: #e7e5e52e;">
                     <div class="card-body d-flex flex-column align-items-start">
                         <strong class="d-inline-block mb-2 " style=" color: #219EBC;; background: #e7e5e5;">تصميم</strong>
                         <h3 class="mb-0" style="     display: flex;
