@@ -60,7 +60,7 @@
             </div>
 
         </div>
-        <div class="row mb-2 " style=" direction: rtl;   ">
+        <div class="row mb-2 g-3" style=" direction: rtl;   ">
 
             <div class="col-md-4">
                 <div class="card flex-md-row mb-4 box-shadow h-md-250 h-100" style="background: #e7e5e52e;">

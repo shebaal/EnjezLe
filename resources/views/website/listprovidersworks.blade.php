@@ -44,7 +44,7 @@
     <div class="container">
         <div class="bd-example">
             <div class="row  row-cols-3 row-cols-md-2 g-4" style=" direction: rtl;   ">
-                <div class="col-3">
+                <div class="col-sm-6 col-lg-3">
                     <div class="card h-100">
                         <img src="21.jpg" alt="">
 
