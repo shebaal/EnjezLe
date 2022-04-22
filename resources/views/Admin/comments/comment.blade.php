@@ -18,6 +18,8 @@
                             {{-- <th class="py-3 px-6 text-center">الحالة </th> --}}
                             <th class="py-3 px-6 text-center"> التقييم </th>
                             <th class="py-3 px-6 text-right">التعليق </th>
+                            <th class="py-3 px-6 text-right">صاحب التعليق  </th>
+
                             <th class="py-3 px-6 text-right">المشروع</th>
                             
                         </tr>
@@ -81,6 +83,12 @@
                                 
                                 </div>
                             </td>
+                            <td class="py-3 px-6 text-left whitespace-nowrap">
+                              <div class="flex items-center justify-end">
+                                
+                                  <span class="font-bold">صاحب التعليق</span>
+                              </div>
+                          </td>
                             <td class="py-3 px-6 text-left whitespace-nowrap">
                                 <div class="flex items-center justify-end">
                                   
@@ -146,6 +154,12 @@
                                 </div>
                             </td>
                             <td class="py-3 px-6 text-left whitespace-nowrap">
+                              <div class="flex items-center justify-end">
+                                
+                                  <span class="font-bold">صاحب التعليق</span>
+                              </div>
+                          </td>
+                            <td class="py-3 px-6 text-left whitespace-nowrap">
                                 <div class="flex items-center justify-end">
                                   
                                     <span class="font-bold">اسم المشروع</span>
@@ -209,6 +223,12 @@
                                  
                                 </div>
                             </td>
+                            <td class="py-3 px-6 text-left whitespace-nowrap">
+                              <div class="flex items-center justify-end">
+                                
+                                  <span class="font-bold">صاحب التعليق</span>
+                              </div>
+                          </td>
                             <td class="py-3 px-6 text-left whitespace-nowrap">
                                 <div class="flex items-center justify-end">
                                   

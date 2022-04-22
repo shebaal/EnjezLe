@@ -13,7 +13,10 @@ class HomeController extends Controller
         return view('Admin.home');
     }
 
-  
+    public function users()
+    {
+        return view('Admin.users.users');
+    }  
 
 
 }

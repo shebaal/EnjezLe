@@ -38,7 +38,7 @@
         </div>
 
         <div class="flex flex-col mt-8 items-end">
-            <div class="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 lg:w-1/2 md:w-full sm:w-full">
+            <div class="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 lg:w-full md:w-full sm:w-full">
                 <div
                     class="align-middle inline-block min-w-full shadow overflow-hidden sm:rounded-lg border-b border-gray-200">
                     <table class="min-w-full text-right" style="direction: rtl" >
@@ -47,6 +47,15 @@
                                 <th
                                     class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-right text-base font-bold leading-4 font-medium text-gray-500 uppercase tracking-wider">
                                     الاسم</th>
+
+                                    <th
+                                    class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-right text-base font-bold leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                    النوع</th>
+
+                                    <th
+                                    class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-right text-base font-bold leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                                    عدد التفرعات</th>
+
                                       <th
                                     class="px-6 py-3 border-b border-gray-200 bg-gray-50 text-right text-base font-bold leading-4 font-medium text-gray-500 uppercase tracking-wider">
                                     العمليات   
@@ -69,7 +78,19 @@
                                     <div class="text-base leading-5 text-gray-900">{{$section->title}}</div>
                                 </td>
 
+                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 ">
+                                            @if($section->parent==0)
+                                    <div class="text-base leading-5 text-gray-900">رئيسي</div>
+                                    @else
+                                    <div class="text-base leading-5 text-gray-900">فرعي</div>
+                                    @endif
+                                </td>
+
+                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 ">
                               
+                                    <div class="text-base leading-5 text-gray-900">{{$section->id}}</div>
+                                 
+                        </td>
 
                          
 

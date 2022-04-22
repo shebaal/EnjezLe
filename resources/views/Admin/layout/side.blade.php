@@ -171,16 +171,27 @@
                         </g>
                       </svg>
                       
-                      
-
-            
                     <span class="text-white text-2xl mx-2 font-semibold">انجز لي</span>
                     
                  </div>
             </div>
     
             <nav class="mt-10">
+              
+
+
                 <a class="{{(Route::currentRouteName()==='admin')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}" href="{{ route('admin') }}">
+                    
+                    <span class="mx-3">الرئيسية</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.986" viewBox="0 0 24 23.986">
+                        <path id="home" d="M23.121,9.069,15.536,1.483a5.008,5.008,0,0,0-7.072,0L.879,9.069A2.978,2.978,0,0,0,0,11.19v9.817a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V11.19A2.978,2.978,0,0,0,23.121,9.069ZM15,22.007H9V18.073a3,3,0,0,1,6,0Zm7-1a1,1,0,0,1-1,1H17V18.073a5,5,0,0,0-10,0v3.934H3a1,1,0,0,1-1-1V11.19a1.008,1.008,0,0,1,.293-.707L9.878,2.9a3.008,3.008,0,0,1,4.244,0l7.585,7.586a1.008,1.008,0,0,1,.293.7Z" transform="translate(0 -0.021)" fill="#8ecae6"/>
+                      </svg>
+                      
+                      
+    
+                </a>
+
+                <a class="{{(Route::currentRouteName()==='admin_users')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}" href="{{ route('admin_users') }}">
                     
                     <span class="mx-3">المستخدمين</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="22.5" height="23.992" viewBox="0 0 22.5 23.992">
@@ -205,7 +216,7 @@
     
                 </a>
     
-                <a class="{{(Route::currentRouteName()==='skills')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
+                {{-- <a class="{{(Route::currentRouteName()==='skills')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
                 href={{ route('skills') }}>
                     
                     <span class="mx-3">المهارات</span>
@@ -214,7 +225,7 @@
                       </svg>
                       
     
-                </a>
+                </a> --}}
     
                 <a class="{{(Route::currentRouteName()==='projects')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
                 href={{ route('projects') }}>
@@ -246,7 +257,7 @@
                   
 
             </a>
-            <a class="{{(Route::currentRouteName()==='offers')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
+            {{-- <a class="{{(Route::currentRouteName()==='offers')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
             href={{ route('offers') }}>
             
             <span class="mx-3">العروض </span>
@@ -256,10 +267,10 @@
               </svg>
               
 
-        </a>
+        </a> --}}
 
-        <a class="flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100"
-        href="/dash_offers">
+        <a class="{{(Route::currentRouteName()==='complaint')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
+        href={{ route('complaint') }}>
         
         <span class="mx-3">الشكوى </span>
 

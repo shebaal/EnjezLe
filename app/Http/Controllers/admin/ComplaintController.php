@@ -3,10 +3,10 @@
 namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\Projects;
+use App\Models\complaint;
 use Illuminate\Http\Request;
 
-class ProjectController extends Controller
+class ComplaintController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,14 +16,15 @@ class ProjectController extends Controller
     public function index()
     {
         //
-        
-        $projects = Projects::all();
-        return view('Admin.project.projects', compact('projects','projects'));
+        $complaint = complaint::all();
+        return view('Admin.complaint.complaint', compact('complaint','complaint'));
     }
 
-    public function report()
-    {
-        return view('Admin.project.reports');
+    public function show_message(){
+
+        $complaint = complaint::all();
+        return view('Admin.complaint.complaint_msg', compact('complaint','complaint'));
+  
     }
 
     /**
@@ -50,10 +51,10 @@ class ProjectController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Projects  $projects
+     * @param  \App\Models\complaint  $complaint
      * @return \Illuminate\Http\Response
      */
-    public function show(Projects $projects)
+    public function show(complaint $complaint)
     {
         //
     }
@@ -61,10 +62,10 @@ class ProjectController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Projects  $projects
+     * @param  \App\Models\complaint  $complaint
      * @return \Illuminate\Http\Response
      */
-    public function edit(Projects $projects)
+    public function edit(complaint $complaint)
     {
         //
     }
@@ -73,10 +74,10 @@ class ProjectController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Projects  $projects
+     * @param  \App\Models\complaint  $complaint
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Projects $projects)
+    public function update(Request $request, complaint $complaint)
     {
         //
     }
@@ -84,10 +85,10 @@ class ProjectController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Projects  $projects
+     * @param  \App\Models\complaint  $complaint
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Projects $projects)
+    public function destroy(complaint $complaint)
     {
         //
     }

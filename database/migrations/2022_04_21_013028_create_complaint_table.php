@@ -13,11 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('sections', function (Blueprint $table) {
+        Schema::create('complaint', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->integer('parent');
-            $table->integer('status')->default(1);
+            $table->string('text');
+            $table->integer('status');
+            $table->boolean('is_solved');
             $table->timestamps();
         });
     }
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('section');
+        Schema::dropIfExists('complaint');
     }
 };

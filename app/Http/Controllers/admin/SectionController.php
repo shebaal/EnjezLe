@@ -14,9 +14,15 @@ class SectionController extends Controller
      * @return \Illuminate\Http\Response
      */
   
+  
     public function section()
     {
-        //
+
+        // 
+        // $sections=array(1,5,7,9);
+
+        // $section=implode(",",$sections);
+        // return $sections;
         $section = Section::all();
         
         return view('Admin.section', compact('section','section'));
@@ -30,7 +36,9 @@ class SectionController extends Controller
     public function create()
     {
         //
-        return view('Admin.create_section');
+        
+        $section = Section::where('parent', 'id') ->get();
+        return view('Admin.create_section',compact('section','section'));
     }
 
     /**
@@ -45,10 +53,12 @@ class SectionController extends Controller
               //
               $request->validate([
                 'title'=>'required',
+                'section'=>'required',
             ]);
      
             $section = new Section([
-                'title' => $request->get('title')
+                'title' => $request->get('title'),
+                'parent' => $request->get('section')
             ]);
      
             $section->save();
