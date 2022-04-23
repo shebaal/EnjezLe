@@ -16,7 +16,7 @@
           <button class="w-full mt-5 bg-[#219EBC] text-white py-2 rounded-md font-semibold tracking-tight">إضافة</button>
         <div></div>
                 {{-- <label class="w-full block text-xs mb-2 text-gray-400">Action</label> --}}
-                <div class="relative border-none">
+           <div class="relative border-none">
                   <select name="section" class="text-gray-600 appearance-none py-2.5 border-none bg-gray-100 inline-block rounded leading-tight w-full">
                     
                     @foreach ($section as $section) 

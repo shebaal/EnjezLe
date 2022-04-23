@@ -6,8 +6,8 @@
 
 <!-- component -->
 <div class="overflow-x-auto">
-    <div class="min-w-screen min-h-screen bg-gray-100 flex items-start justify-center bg-gray-100 font-sans overflow-hidden">
-        <div class="w-full lg:w-5/6">
+    <div class="container mx-auto px-6 py-8 justify-end min-w-screen min-h-screen bg-gray-100 flex items-start  bg-gray-100 font-sans overflow-hidden">
+        <div class="w-full ">
             <div class="bg-white shadow-md rounded my-6">
                 <table class="min-w-max w-full table-fixed">
                     <thead>

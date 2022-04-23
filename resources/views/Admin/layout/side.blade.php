@@ -23,7 +23,7 @@
 
         <h3 class="text-gray-700 text-3xl font-medium text-right">مرحبا بك </h3>
 
-      <div class="bg-[#023047] group-hover:bg-[#219EBC] h-full w-4 absolute top-0 left-0"> </div>
+      {{-- <div class="bg-[#023047] group-hover:bg-[#219EBC] h-full w-4 absolute top-0 left-0"> </div> --}}
 
     </a>
   </div>
@@ -180,7 +180,7 @@
               
 
 
-                <a class="{{(Route::currentRouteName()==='admin')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}" href="{{ route('admin') }}">
+                <a class="{{(Route::currentRouteName()==='admin')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-[#8ecae6]' :'flex justify-end mt-4 py-2 px-6 text-gray-300 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}" href="{{ route('admin') }}">
                     
                     <span class="mx-3">الرئيسية</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.986" viewBox="0 0 24 23.986">
@@ -191,7 +191,7 @@
     
                 </a>
 
-                <a class="{{(Route::currentRouteName()==='admin_users')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}" href="{{ route('admin_users') }}">
+                <a class="{{(Route::currentRouteName()==='admin_users')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-[#8ecae6]' :'flex justify-end mt-4 py-2 px-6 text-gray-300 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}" href="{{ route('admin_users') }}">
                     
                     <span class="mx-3">المستخدمين</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="22.5" height="23.992" viewBox="0 0 22.5 23.992">
@@ -201,7 +201,7 @@
     
                 </a>
     
-                <a class="{{(Route::currentRouteName()==='section')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
+                <a class="{{(Route::currentRouteName()==='section')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-[#8ecae6]' :'flex justify-end mt-4 py-2 px-6 text-gray-300 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
                     href={{ route('section') }}>
                     
                     <span class="mx-3">الاقسام</span>
@@ -227,7 +227,7 @@
     
                 </a> --}}
     
-                <a class="{{(Route::currentRouteName()==='projects')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
+                <a class="{{(Route::currentRouteName()==='projects')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-[#8ecae6]' :'flex justify-end mt-4 py-2 px-6 text-gray-300 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
                 href={{ route('projects') }}>
                     
                     <span class="mx-3">المشاريع </span>
@@ -241,7 +241,7 @@
     
                 </a>
 
-                <a class="{{(Route::currentRouteName()==='comments')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
+                <a class="{{(Route::currentRouteName()==='comments')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-[#8ecae6]' :'flex justify-end mt-4 py-2 px-6 text-gray-300 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
                 href={{ route('comments') }}>
                 
                 <span class="mx-3">التعليقات </span>
@@ -269,7 +269,7 @@
 
         </a> --}}
 
-        <a class="{{(Route::currentRouteName()==='complaint')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-gray-100' :'flex justify-end mt-4 py-2 px-6 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
+        <a class="{{(Route::currentRouteName()==='complaint')?' flex justify-end mt-4 py-2 px-6 bg-gray-700 bg-opacity-25 text-[#8ecae6]' :'flex justify-end mt-4 py-2 px-6 text-gray-300 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100'}}"
         href={{ route('complaint') }}>
         
         <span class="mx-3">الشكوى </span>
