@@ -11,8 +11,7 @@ use App\Http\Controllers\website\ProjectsController;
 
 
 use App\Http\Controllers\HomeController as ControllersHomeController;
-
-
+use App\Http\Controllers\website\LandPage;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,8 +31,10 @@ Route::get('/', function () {
 
 Auth::routes(['verify'=>true]);
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
+Route::get('/v', [HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('v');
+// LandingPage ^_^
 
+Route::get('/home', [LandPage::class, 'showHome'])->name('home');
 
 
 // Dashboard ^_^
