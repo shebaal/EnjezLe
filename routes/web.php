@@ -32,11 +32,19 @@ Route::get('/', function () {
 
 Auth::routes(['verify'=>true]);
 
+// website ^_^
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 
 
+// Seeker Dashboard
 
-// Dashboard ^_^
+Route::get('/seeker', function () {
+    return view('website.SeekerPanel.Home.index');
+});
+
+
+// Admin Dashboard ^_^
 
 // Sidebar
 Route::get('/admin', [homeController::class, 'home'])->name('admin');
@@ -79,6 +87,6 @@ Route::get('/admin/projects_report', [projectController::class, 'report'])->name
 
 
 /** front project routes */
-Route::get('/new_project',[ProjectsController::class,'create']);
-Route::post('/save_project',[ProjectsController::class,'store']);
+// Route::get('/new_project',[ProjectsController::class,'create']);
+// Route::post('/save_project',[ProjectsController::class,'store']);
 /** end of project routes  */
