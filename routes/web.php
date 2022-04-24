@@ -4,6 +4,12 @@ use App\Http\Controllers\admin\HomeController;
 use App\Http\Controllers\admin\ProjectController;
 use App\Http\Controllers\admin\SectionController;
 use App\Http\Controllers\admin\SkillsController;
+use App\Http\Controllers\admin\CommentsController;
+use App\Http\Controllers\admin\offersController;
+use App\Http\Controllers\admin\complaintController;
+use App\Http\Controllers\website\ProjectsController;
+use App\Http\Controllers\providers\WorkController;
+
 
 
 use App\Http\Controllers\HomeController as ControllersHomeController;
@@ -26,7 +32,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes(['verify'=>true]);
+// Auth::routes(['verify'=>true]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 
@@ -58,3 +64,22 @@ Route::get('/admin/edit_skills/{id}', [skillsController::class, 'edit'])->name('
 Route::post('/admin/update_skills/{id}', [skillsController::class, 'update'])->name('update_skills');
 Route::get('/admin/status-update_skills/{id}', [skillsController::class, 'status_update'])->name('status_update');
 
+
+
+// complaint messages
+Route::get('/admin/complaint/messages', [complaintController::class, 'show_message'])->name('complaint_msg');
+
+
+// project report
+Route::get('/admin/projects_report', [projectController::class, 'report'])->name('project_report');
+
+/**providers dashbord*/
+  
+Route::resource('/works',WorkController::class);
+ 
+
+/**end providers dashbord*/
+/** front project routes */
+Route::get('/new_project',[ProjectsController::class,'create']);
+Route::post('/save_project',[ProjectsController::class,'store']);
+/** end of project routes  */
