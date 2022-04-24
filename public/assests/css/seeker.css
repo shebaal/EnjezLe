@@ -127,6 +127,7 @@ h1 {
 .nav__menu {
   color: #B8BED9;
   transition: .3s ease-in-out;
+  text-decoration: none;
 }
 
 .nav__menu:hover {
@@ -147,21 +148,26 @@ h1 {
   fill: #186D80;
 }
 
-.nav__menu.active {
+.activee{
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1rem;
+  width: 100%;
+  cursor: pointer;
   color: white;
   background-color: #186D80;
   border-radius: 16px;
 }
 
-.nav__menu.active:hover {
+.activee:hover {
   color: #FFFFFF;
 }
 
-.nav__menu.active svg path {
+.activee svg path {
   fill: #FFFFFF;
 }
 
-.nav__menu.active:hover svg path {
+.activee:hover svg path {
   fill: #FFFFFF;
 }
 
@@ -171,21 +177,21 @@ h1 {
 }
 
 .nav__logout {
-  color: #FF4842;
+  color: #2a869b;
   transition: .3s ease-in-out;
 }
 
 .nav__logout:hover {
-  color: #186D80
+  color: #8ECAE6
 }
 
 .nav__logout svg path {
-  fill: #FF4842;
+  fill: #186D80;
   transition: .3s ease-in-out;
 }
 
 .nav__logout:hover svg path {
-  fill: #186D80
+  fill: #8ECAE6;
 }
 
 .section__main {
@@ -422,7 +428,8 @@ h1 {
 }
 
 .bg-secondary {
-  background-color: #40BAFF;
+  background-color: #8ECAE6;
+  font-family: inherit;
 }
 
 .bg-white {
