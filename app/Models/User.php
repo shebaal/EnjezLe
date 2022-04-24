@@ -9,9 +9,11 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use Nette\Utils\Arrays;
 use PhpParser\Node\Expr\Cast\Array_;
+use Laratrust\Traits\LaratrustUserTrait;
 
 class User extends Authenticatable implements MustVerifyEmail
 {
+    use LaratrustUserTrait;
     use HasApiTokens, HasFactory, Notifiable;
 
     /**
@@ -19,22 +21,8 @@ class User extends Authenticatable implements MustVerifyEmail
      *
      * @var array<int, string>
      */
-    protected $fillable = [
-        'name',
-        'email',
-        'password',
-    ];
-
-    /**
-     * The attributes that should be hidden for serialization.
-     *
-     * @var array<int, string>
-     */
-    protected $hidden = [
-        'password',
-        'remember_token',
-    ];
-
+    protected $guarded = [];
+ 
     /**
      * The attributes that should be cast.
      *
