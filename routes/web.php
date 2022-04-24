@@ -8,6 +8,8 @@ use App\Http\Controllers\admin\CommentsController;
 use App\Http\Controllers\admin\offersController;
 use App\Http\Controllers\admin\complaintController;
 use App\Http\Controllers\website\ProjectsController;
+use App\Http\Controllers\providers\WorkController;
+
 
 
 use App\Http\Controllers\HomeController as ControllersHomeController;
@@ -30,7 +32,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes(['verify'=>true]);
+// Auth::routes(['verify'=>true]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 
@@ -75,9 +77,12 @@ Route::get('/admin/complaint/messages', [complaintController::class, 'show_messa
 // project report
 Route::get('/admin/projects_report', [projectController::class, 'report'])->name('project_report');
 
+/**providers dashbord*/
+  
+Route::resource('/works',WorkController::class);
+ 
 
-
-
+/**end providers dashbord*/
 /** front project routes */
 Route::get('/new_project',[ProjectsController::class,'create']);
 Route::post('/save_project',[ProjectsController::class,'store']);
