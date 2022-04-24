@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class ProvProfile extends Model
 {
     use HasFactory;
+    
 }

@@ -114,12 +114,12 @@
                     <div class="col-md-12 border-right" style=" text-align: right; padding: 16px; direction: rtl; color: #023047;">
                         <h3 style="    direction: rtl;text-align: right;padding: 16px; direction: rtl; color: #023047;" class="card-title"> اضافة عمل </h3>
                         @if ($errors->any())
-          @foreach ($errors->all() as $err)
-          <p class="alert alert-danger">{{ $err }}</p>
-              
-          @endforeach
-              
-          @endif
+                        @foreach ($errors->all() as $err)
+                        <p class="alert alert-danger">{{ $err }}</p>
+
+                        @endforeach
+
+                        @endif
                         <form class="card-body" action="/works" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="row ">
@@ -131,7 +131,7 @@
                                     <label for="exampleFormControlInput1" class=" form-label">العنوان </label>
                                     <input type="date" class="form-control" name="date_end" id="exampleFormControlInput1" placeholder="اكتب عنوان العمل">
                                 </div>
-                               
+
                             </div>
                             <div class="col-md-12">
                                 <label class="form-label" for="multicol-email">الصورة</label>
@@ -145,14 +145,14 @@
                                 <label for="exampleFormControlTextarea1" class="form-label"> الوصف</label>
                                 <textarea class="form-control" name="describe" id="exampleFormControlTextarea1" placeholder="اكتب وصف عن العمل" rows="3"></textarea>
                             </div>
-                           
+
                             <div class="col-12 p-3" style="display: flex;  justify-content: flex-end;">
                                 <a href="/works" style="width: 90px; margin-left: 4px;" class="btn btn-outline-danger">الغاء</a>
                                 <button type="submit " style="width: 90px;" class="btn btn-primary">اضافة</button>
 
 
                             </div>
-                           
+
                     </div>
 
                     </form>
