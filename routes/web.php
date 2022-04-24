@@ -13,8 +13,7 @@ use App\Http\Controllers\providers\WorkController;
 
 
 use App\Http\Controllers\HomeController as ControllersHomeController;
-
-
+use App\Http\Controllers\Seeker\MainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -41,10 +40,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->midd
 
 // Seeker Dashboard
 
-Route::get('/seeker', function () {
-    return view('website.SeekerPanel.Home.index');
-});
-
+Route::get('/seeker',[MainController::class, 'home'])->name('seeker');
+Route::get('/seeker_wallet', [MainController::class, 'wallet'])->name('seeker_wallet');
+Route::get('/seeker_personalinfo',[MainController::class, 'personalinfo'])->name('seeker_personalinfo');
+Route::get('/seeker_setting', [MainController::class, 'setting'])->name('seeker_setting');
+Route::get('/seeker_works',[MainController::class, 'works'])->name('seeker_works');
 
 // Admin Dashboard ^_^
 
