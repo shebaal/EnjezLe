@@ -31,10 +31,10 @@ Route::get('/', function () {
 
 Auth::routes(['verify'=>true]);
 
-Route::get('/v', [HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('v');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 // LandingPage ^_^
 
-Route::get('/home', [LandPage::class, 'showHome'])->name('home');
+Route::get('/landingpage', [LandPage::class, 'showHome'])->name('landingpage');
 
 
 // Dashboard ^_^
@@ -80,6 +80,6 @@ Route::get('/admin/projects_report', [projectController::class, 'report'])->name
 
 
 /** front project routes */
-Route::get('/new_project',[ProjectsController::class,'create']);
+Route::get('/ ',[ProjectsController::class,'create']);
 Route::post('/save_project',[ProjectsController::class,'store']);
 /** end of project routes  */

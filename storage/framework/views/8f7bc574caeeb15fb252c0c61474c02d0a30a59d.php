@@ -91,4 +91,4 @@
     </div>
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('website.layout.headerFooter', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\DELL\Desktop\EnjezLe\resources\views/website/home.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('website.layout.headerFooter', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\DELL\Desktop\مشروع رواد\EnjezLe\resources\views/website/home.blade.php ENDPATH**/ ?>

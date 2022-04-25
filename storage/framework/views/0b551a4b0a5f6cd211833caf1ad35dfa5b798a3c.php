@@ -9,10 +9,8 @@
                 <img src="<?php echo e(asset('assests/svg/logo.svg')); ?>" alt="">
             </div>
             <h2>تسجيل الدخول</h2>
-            <form method="POST" action="<?php echo e(route('password.update')); ?>">
+            <form method="POST" action="<?php echo e(route('login')); ?>">
                 <?php echo csrf_field(); ?>
-
-                <input type="hidden" name="token" value="<?php echo e($token); ?>">
                 <div class="user-box">
                     <input id="email" type="email" class="form-control <?php $__errorArgs = ['email'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
@@ -22,7 +20,7 @@ $message = $__bag->first($__errorArgs[0]); ?> is-invalid <?php unset($message);
 if (isset($__messageOriginal)) { $message = $__messageOriginal; }
 endif;
 unset($__errorArgs, $__bag); ?>" name="email"
-                        value="<?php echo e($email ?? old('email')); ?>" required autocomplete="email" autofocus>
+                        value="<?php echo e(old('email')); ?>" required autocomplete="email" autofocus>
                     <label>عنوان البريد الالكتروني</label>
                     <?php $__errorArgs = ['email'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
@@ -38,7 +36,7 @@ endif;
 unset($__errorArgs, $__bag); ?>
                 </div>
                 <div class="user-box">
-                    <input id="password" type="password" class="form-control <?php $__errorArgs = ['password'];
+                    <input type="password" type="password" class="form-control <?php $__errorArgs = ['password'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :
 if (isset($message)) { $__messageOriginal = $message; }
@@ -46,7 +44,7 @@ $message = $__bag->first($__errorArgs[0]); ?> is-invalid <?php unset($message);
 if (isset($__messageOriginal)) { $message = $__messageOriginal; }
 endif;
 unset($__errorArgs, $__bag); ?>"
-                        name="password" required autocomplete="new-password">
+                        name="password" required autocomplete="current-password">
                     <label>كلمة السر</label>
                     <?php $__errorArgs = ['password'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
@@ -60,12 +58,6 @@ $message = $__bag->first($__errorArgs[0]); ?>
 if (isset($__messageOriginal)) { $message = $__messageOriginal; }
 endif;
 unset($__errorArgs, $__bag); ?>
-                </div>
-                <div class="user-box">
-                    <input id="password-confirm" type="password" class="form-control" name="password_confirmation"
-                        required autocomplete="new-password">
-                    <label>تاكيد كلمة السر</label>
-
                 </div>
                 <!-- <a href="#">
                 <span></span>
@@ -84,8 +76,17 @@ unset($__errorArgs, $__bag); ?>
                     </button>
                 </div>
             </form>
-          
+            <div class="login_links">
+                <div>
+                    <?php if(Route::has('password.request')): ?>
+                        <a class="btn from-top" href="<?php echo e(route('password.request')); ?>">
+                            نسيت كلمة المرور
+                        </a>
+                    <?php endif; ?>
+                </div>
+                <a href="<?php echo e(route('register')); ?>" class="btn from-top">إنشاء حساب</a>
+            </div>
 
         </div>
 </body>
-<?php /**PATH C:\Users\DELL\Desktop\EnjezLe\resources\views/auth/passwords/reset.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\Users\DELL\Desktop\مشروع رواد\EnjezLe\resources\views/auth/login.blade.php ENDPATH**/ ?>

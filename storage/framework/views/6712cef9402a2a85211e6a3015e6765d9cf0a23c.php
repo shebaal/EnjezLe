@@ -29,8 +29,8 @@
                 <li><a href="#">بحث عن منجز</a></li>
                 <li><a href="#">تصفح المشاريع</a></li>
                 <li><a href="#">اضف مشروع</a></li>
-                <li><a href="#">تسجيل دخول</a></li>
-                <li><button class="login-button" href="#"> إنشاء حساب</button></li>
+                <li><a href="<?php echo e(route("login")); ?>">تسجيل دخول</a></li>
+                <li><button class="login-button" ><a href="<?php echo e(route("register")); ?>"> إنشاء حساب</a></button></li>
             </ul>
         </nav>
 
@@ -192,4 +192,4 @@
 </body>
 
 </html>
-<?php /**PATH C:\Users\DELL\Desktop\EnjezLe\resources\views/website/layout/headerFooter.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\Users\DELL\Desktop\مشروع رواد\EnjezLe\resources\views/website/layout/headerFooter.blade.php ENDPATH**/ ?>

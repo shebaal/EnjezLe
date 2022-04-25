@@ -21,7 +21,7 @@ if (isset($__messageOriginal)) { $message = $__messageOriginal; }
 endif;
 unset($__errorArgs, $__bag); ?>" name="email"
                         value="<?php echo e(old('email')); ?>" required autocomplete="email" autofocus>
-                    <label>عنوان البريد الالكتروتي</label>
+                    <label>عنوان البريد الالكتروني</label>
                     <?php $__errorArgs = ['email'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :

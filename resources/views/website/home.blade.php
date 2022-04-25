@@ -1,34 +1,34 @@
 @extends('website.layout.headerFooter')
 @section('content')
-  <main class="hero">
-            <div class='p-relative'>
-                <div class="container_text">
-                    <h1>مرحبا بكم</h1>
-                    <h1>إنجزلي</h1>
-                    <h4>مظلتكم الآمنة في سوق المال والاعمال ,نحن هنا لخدمتكم</h4>
-                </div>
-                <!-- <div class="search-box">
-                <button class="btn-search">    <ion-icon name="search" class="search"></ion-icon>
-                </button>
-                <input type="text" class="input-search" placeholder="Search about...">
-            </div> -->
+    <main class="hero">
+        <div class='p-relative'>
+            <div class="container_text">
+                <h1>مرحبا بكم</h1>
+                <h1>إنجزلي</h1>
+                <h4>مظلتكم الآمنة في سوق المال والاعمال ,نحن هنا لخدمتكم</h4>
             </div>
-            <div class="container_img p-relative">
+            <!-- <div class="search-box">
+                    <button class="btn-search">    <ion-icon name="search" class="search"></ion-icon>
+                    </button>
+                    <input type="text" class="input-search" placeholder="Search about...">
+                </div> -->
+        </div>
+        <div class="container_img p-relative">
 
 
-                <div class="seek-msg">
-                    <div>
-                        <img src="{{ asset('assests/img/3.png') }}" alt="" srcset="">
-                    </div>
-
-                    <p>مرحبا</p>
-                    <p>انا مصممة جرافكس اعمل في هذا المجال قرابة الخمس سنين,متاحة للعمل </p>
-                    <span class="time">7:15Am</span>
+            <div class="seek-msg">
+                <div>
+                    <img src="{{ asset('assests/img/3.png') }}" alt="" srcset="">
                 </div>
 
-                <img src="{{ asset("assests/svg/enLogo.svg") }}" alt="">
+                <p>مرحبا</p>
+                <p>انا مصممة جرافكس اعمل في هذا المجال قرابة الخمس سنين,متاحة للعمل </p>
+                <span class="time">7:15Am</span>
             </div>
-        </main>
+
+            <img src="{{ asset('assests/svg/enLogo.svg') }}" alt="">
+        </div>
+    </main>
     </div>
     <div class="desc">
         <div>
@@ -83,10 +83,10 @@
         <div>
             إنجز عملك بسهولة وامان
             <button class="button">
-            أضف مشروعك
-            <div class="button__horizontal"></div>
-            <div class="button__vertical"></div>
-        </button>
+                أضف مشروعك
+                <div class="button__horizontal"></div>
+                <div class="button__vertical"></div>
+            </button>
         </div>
     </div>
-    @endsection
+@endsection
