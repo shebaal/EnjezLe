@@ -35,6 +35,8 @@ Route::get('/', function () {
 
 // website ^_^
 
+// website ^_^
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 
 
@@ -90,6 +92,9 @@ Route::resource('/works',WorkController::class);
 /** front project routes */
 Route::get('/new_project',[ProjectsController::class,'create']);
 Route::post('/save_project',[ProjectsController::class,'store']);
+/** end of project routes  */
+// Route::get('/new_project',[ProjectsController::class,'create']);
+// Route::post('/save_project',[ProjectsController::class,'store']);
 /** end of project routes  */
 // Route::get('/new_project',[ProjectsController::class,'create']);
 // Route::post('/save_project',[ProjectsController::class,'store']);
