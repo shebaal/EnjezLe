@@ -48,7 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 4px 0px 0px var(--beauty);
+    box-shadow: 2px 0px 1px #ecf1f47d;
     position: relative;
     right: 126px;
     top: -10px;
@@ -70,7 +70,7 @@
     padding: 10px 0;
     font-size: 16px;
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 19px;
     border: none;
     border-bottom: 1px solid #fff;
     outline: none;
@@ -110,7 +110,7 @@ a {
 .login_links {
     display: flex;
     justify-content: space-between;
-    margin-top: 7vh;
+    margin-top: 3vh;
 }
 
 .login_links .btn {
@@ -433,4 +433,20 @@ a {
 .verfy button:hover {
     background-color: var(--light_blue);
     color: var(--light);
+}
+
+.dan_mesg_po {
+    color: var(--dark_blue);
+    margin-top: -17px;
+    margin-bottom: 30px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+    border-color: none;
+    box-shadow: 0 0 0 0.25rem none;
 }
