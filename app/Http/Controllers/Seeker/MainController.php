@@ -20,12 +20,17 @@ class MainController extends Controller
     {
         return view('website.SeekerPanel.personalinfo.index');
     }
-    public function setting()
+    public function notification()
     {
-        return view('website.SeekerPanel.setting.index');
+        return view('website.SeekerPanel.notification.index');
     }
     public function works()
     {
         return view('website.SeekerPanel.works.work');
     }
+    public function projects()
+    {
+        return view('website.SeekerPanel.projects.index');
+    }
+    
 }
