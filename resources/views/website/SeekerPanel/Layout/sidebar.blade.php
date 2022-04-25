@@ -1,3 +1,7 @@
+
+
+
+
 <link href="http://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet">
 <link href="assests/css/seeker.css" rel="stylesheet">
 
@@ -192,3 +196,4 @@
   <script src="assests/js/seeker.js"></script>
 
 </body>
+
