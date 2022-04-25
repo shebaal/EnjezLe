@@ -36,7 +36,7 @@
       </div>
     
     </div>
-    <h2 class="text-2xl mb-5 txt-right"> تكملة الحساب</h2>
+    {{-- <h2 class="text-2xl mb-5 txt-right"> تكملة الحساب</h2>
     <div class="portos">
       <div class="flex justify flex-align-center bg-white porto">
       
@@ -112,7 +112,7 @@
       
    
           
-    </div>
+    </div> --}}
    
   </section>
 
