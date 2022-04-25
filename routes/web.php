@@ -12,6 +12,7 @@ use App\Http\Controllers\website\ProjectsController;
 
 use App\Http\Controllers\HomeController as ControllersHomeController;
 use App\Http\Controllers\website\LandPage;
+use App\Http\Controllers\Seeker\MainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,13 +32,23 @@ Route::get('/', function () {
 
 Auth::routes(['verify'=>true]);
 
+// website ^_^
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 // LandingPage ^_^
 
 Route::get('/landingpage', [LandPage::class, 'showHome'])->name('landingpage');
 
+// Seeker Dashboard
 
-// Dashboard ^_^
+Route::get('/seeker',[MainController::class, 'home'])->name('seeker');
+Route::get('/seeker_wallet', [MainController::class, 'wallet'])->name('seeker_wallet');
+Route::get('/seeker_projects', [MainController::class, 'projects'])->name('seeker_projects');
+Route::get('/seeker_personalinfo',[MainController::class, 'personalinfo'])->name('seeker_personalinfo');
+Route::get('/seeker_notification', [MainController::class, 'notification'])->name('seeker_notification');
+Route::get('/seeker_works',[MainController::class, 'works'])->name('seeker_works');
+
+// Admin Dashboard ^_^
 
 // Sidebar
 Route::get('/admin', [homeController::class, 'home'])->name('admin');
@@ -80,6 +91,7 @@ Route::get('/admin/projects_report', [projectController::class, 'report'])->name
 
 
 /** front project routes */
-Route::get('/ ',[ProjectsController::class,'create']);
-Route::post('/save_project',[ProjectsController::class,'store']);
+
+// Route::get('/new_project',[ProjectsController::class,'create']);
+// Route::post('/save_project',[ProjectsController::class,'store']);
 /** end of project routes  */
