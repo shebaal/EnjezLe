@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\providers;
+namespace App\Http\Controllers\Seeker;
 use App\Http\Controllers\Controller;
 use App\Models\work;
 use Error;

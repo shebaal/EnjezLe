@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\ProvProfile;
 use Illuminate\Http\Request;
 
-class ProvProfileController extends Controller
+class ProfileController extends Controller
 {
     /**
      * Display a listing of the resource.
