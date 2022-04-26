@@ -4,10 +4,15 @@
 
 
 
-<div class="loginContainer">
-    <div class="login-box">
-        <div class="login_icon_box">
-            <img src="{{ asset('assests/svg/logo.svg') }}" alt="">
+<div class="loginContainer sign-up-container">
+    <div class=" img-squares"><img src="{{ asset('assests/svg/enLogo.svg') }}" alt=""></div>
+
+    <div class="login-box sign-up">
+        <div class="logo-container">
+            
+            <div class="login_icon_box">
+                <img src="{{ asset('assests/svg/logo.svg') }}" alt="">
+            </div>
         </div>
         <h2> إنشاء حساب
         </h2>
@@ -22,9 +27,13 @@
                         <div class='dan_mesg_po'>{{ $message }}</div>
                     </span>
                 @enderror
+                <span   id='name-error'class="invalid-feedback dan_mesg_po" role="alert" >
+                   
+                </span>
+               
             </div>
             <div class="user-box">
-                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email"
+                <input id="email" class="form-control @error('email') is-invalid @enderror" name="email"
                     value="{{ old('email') }}" required autocomplete="email">
                 <label>عنوان البريد الالكتروني</label>
                 @error('email')
@@ -32,6 +41,9 @@
                         <div class='dan_mesg_po'>{{ $message }}</div>
                     </span>
                 @enderror
+                <span  style="display:none"  id='email-error'class="invalid-feedback dan_mesg_po" role="alert" >
+                    
+                </span>
             </div>
             <div class="user-box">
                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror"
@@ -42,11 +54,17 @@
                         <div class='dan_mesg_po'>{{ $message }}</div>
                     </span>
                 @enderror
+                <span  style="display:none"  id='password-error'class="invalid-feedback dan_mesg_po" role="alert" >
+                    
+                </span>
             </div>
             <div class="user-box">
                 <input type="password" id="password-confirm" type="password" class="form-control"
                     name="password_confirmation" required autocomplete="new-password">
                 <label> تاكيد كلمة السر</label>
+                <span  style="display:none"  id='confirm-error' class="invalid-feedback dan_mesg_po" role="alert" >
+                    
+                </span>
             </div>
             <!-- <a href="#">
                 <span></span>
