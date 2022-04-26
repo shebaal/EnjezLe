@@ -49,8 +49,8 @@ class WorkController extends Controller
             'title.min'=>'جب ان يكون العنوان اكبر من 3 حرف', 
             'title.max'=>'يجب ان يكون العنوان اقل من 25 حرف', 
             'describe.required'=>'يرجى ادخال الوصف',
-            'describe.min'=>'يجب ان يكون العنوان اكبر  من 70 حرف', 
-            'describe.max'=>'يجب ان يكون العنوان اقل من 250 حرف',
+            'describe.min'=>'يجب ان يكون الوصف اكبر  من 70 حرف', 
+            'describe.max'=>'يجب ان يكون الوصف اقل من 250 حرف',
             'date_end.required'=>'يرجى ادخال التاريخ',
 
            
