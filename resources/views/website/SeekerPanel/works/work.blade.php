@@ -19,9 +19,9 @@
           </div>
       <div>
         <h1 class="text-4xl text-white mb-2">أضف عملا </h1>
-        <h1 class="text-4xl text-white mb-4"> ليتم توظيفك</h1>
+        <h1 class="text-4xl text-white mb-8"> ليتم توظيفك</h1>
         <div class="banner__cta">
-          <button class="button bg-secondary text-white py-4 px-8">اضافة عمل</button>
+          <a href="{{route('seeker_addwork')}}" class="button bg-secondary text-white py-4 px-8 a_none">اضافة عمل</a>
         </div>
       </div>
     

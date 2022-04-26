@@ -48,6 +48,14 @@ Route::get('/seeker_personalinfo',[MainController::class, 'personalinfo'])->name
 Route::get('/seeker_notification', [MainController::class, 'notification'])->name('seeker_notification');
 Route::get('/seeker_works',[MainController::class, 'works'])->name('seeker_works');
 
+Route::get('/seeker_addskill',[MainController::class, 'skill'])->name('seeker_addskill');
+Route::get('/seeker_addwork',[MainController::class, 'addwork'])->name('seeker_addwork');
+Route::get('/seeker_addpro',[MainController::class, 'addpro'])->name('seeker_addpro');
+
+
+
+
+
 // Admin Dashboard ^_^
 
 // Sidebar

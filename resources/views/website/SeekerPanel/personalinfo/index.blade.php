@@ -19,10 +19,12 @@
                       
           </div>
       <div>
+        
         <h1 class="text-4xl text-white mb-2"> أضف مهاره ليتم </h1>
-        <h1 class="text-4xl text-white mb-4">  ايصال الاشعارات لك</h1>
+        <h1 class="text-4xl text-white mb-8 ">  ايصال الاشعارات لك</h1>
+        
         <div class="banner__cta">
-          <button class="button bg-secondary text-white py-4 px-8">اضافة مهاره</button>
+          <a href="{{route('seeker_addskill')}}" class="button bg-secondary text-white py-4 px-8 a_none ">اضافة مهاره</a>
         </div>
       </div>
     

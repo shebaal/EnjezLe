@@ -32,5 +32,17 @@ class MainController extends Controller
     {
         return view('website.SeekerPanel.projects.index');
     }
+    public function skill(){
+        
+        return view('website.SeekerPanel.personalinfo.skills');
+    }
+    public function addwork()
+    {
+        return view('website.SeekerPanel.works.addwork');
+    }
+    public function addpro()
+    {
+        return view('website.SeekerPanel.projects.addproject');
+    }
     
 }
