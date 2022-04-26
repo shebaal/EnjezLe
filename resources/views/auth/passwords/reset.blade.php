@@ -4,10 +4,13 @@
 <body>
 
     <div class="loginContainer">
-        <div class="login-box">
-            <div class="login_icon_box">
-                <img src="{{ asset('assests/svg/logo.svg') }}" alt="">
-            </div>
+        <div class=" img-squares"><img src="{{ asset('assests/svg/enLogo.svg') }}" alt=""></div>
+         <div class="login-box">
+             <div class="logo-container">
+             <div class="login_icon_box">
+                 <img src="{{ asset('assests/svg/logo.svg') }}" alt="">
+             </div>
+         </div>
             <h2>تسجيل الدخول</h2>
             <form method="POST" action="{{ route('password.update') }}">
                 @csrf

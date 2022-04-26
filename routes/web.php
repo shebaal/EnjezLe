@@ -9,6 +9,8 @@ use App\Http\Controllers\admin\offersController;
 use App\Http\Controllers\admin\complaintController;
 use App\Http\Controllers\website\ProjectsController;
 use App\Http\Controllers\providers\WorkController;
+use App\Http\Controllers\Auth\ChangePasswordController;
+use App\Http\Controllers\Auth\logoutController;
 
 
 
@@ -32,7 +34,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Auth::routes(['verify'=>true]);
+Auth::routes(['verify'=>true]);
 
 // website ^_^
 
@@ -43,24 +45,14 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->midd
 
 Route::get('/landingpage', [LandPage::class, 'showHome'])->name('landingpage');
 
-// Seeker Dashboard
-
-Route::get('/seeker',[MainController::class, 'home'])->name('seeker');
-Route::get('/seeker_wallet', [MainController::class, 'wallet'])->name('seeker_wallet');
-Route::get('/seeker_projects', [MainController::class, 'projects'])->name('seeker_projects');
-Route::get('/seeker_personalinfo',[MainController::class, 'personalinfo'])->name('seeker_personalinfo');
-Route::get('/seeker_notification', [MainController::class, 'notification'])->name('seeker_notification');
-Route::get('/seeker_works',[MainController::class, 'works'])->name('seeker_works');
-
-Route::get('/seeker_addskill',[MainController::class, 'skill'])->name('seeker_addskill');
-Route::get('/seeker_addwork',[MainController::class, 'addwork'])->name('seeker_addwork');
-Route::get('/seeker_addpro',[MainController::class, 'addpro'])->name('seeker_addpro');
+Route::group(['middleware'=>'auth'],function(){
 
 
+/**----------------------
+    Admin Dashboard ^_^
+ *------------------------**/
+Route::group(['middleware'=>'role:admin'],function(){
 
-
-
-// Admin Dashboard ^_^
 
 // Sidebar
 Route::get('/admin', [homeController::class, 'home'])->name('admin');
@@ -87,24 +79,101 @@ Route::post('/admin/update_skills/{id}', [skillsController::class, 'update'])->n
 Route::get('/admin/status-update_skills/{id}', [skillsController::class, 'status_update'])->name('status_update');
 
 
-
 // complaint messages
 Route::get('/admin/complaint/messages', [complaintController::class, 'show_message'])->name('complaint_msg');
-
 
 // project report
 Route::get('/admin/projects_report', [projectController::class, 'report'])->name('project_report');
 
+  });
+
+  /**----------------------
+ Seeker Dashboard
+*------------------------**/
+ Route::group(['middleware'=>'role:seeker'],function(){
+    Route::get('/seeker',[MainController::class, 'home'])->name('seeker');
+    Route::get('/seeker_wallet', [MainController::class, 'wallet'])->name('seeker_wallet');
+    Route::get('/seeker_projects', [MainController::class, 'projects'])->name('seeker_projects');
+    Route::get('/seeker_personalinfo',[MainController::class, 'personalinfo'])->name('seeker_personalinfo');
+    Route::get('/seeker_notification', [MainController::class, 'notification'])->name('seeker_notification');
+    Route::get('/seeker_works',[MainController::class, 'works'])->name('seeker_works');
+    
+    Route::get('/seeker_addskill',[MainController::class, 'skill'])->name('seeker_addskill');
+    Route::get('/seeker_addwork',[MainController::class, 'addwork'])->name('seeker_addwork');
+    Route::get('/seeker_addpro',[MainController::class, 'addpro'])->name('seeker_addpro');
+    /** front project routes */
+    Route::get('/new_project',[ProjectsController::class,'create']);
+    Route::post('/save_project',[ProjectsController::class,'store']);
+    /** end of project routes  */
+    
+});
+
+ /**----------------------
+ provider Dashboard
+*------------------------**/
+  Route::group(['middleware'=>'role:provider'],function(){
 /**providers dashbord*/
   
 Route::resource('/works',WorkController::class);
- 
+});
 
-/**end providers dashbord*/
-/** front project routes */
+
+/**----------------------
+ services and provider Dashboard
+*------------------------**/
+Route::group(['middleware'=>'role:both'],function(){
+    /** front project routes */
 Route::get('/new_project',[ProjectsController::class,'create']);
 Route::post('/save_project',[ProjectsController::class,'store']);
 /** end of project routes  */
+
+});
+
+
+Route::get('/logout', [logoutController::class, 'logout']);
+Route::get('/changePassword', [ChangePasswordController::class, 'load']);
+Route::post('/changePassword', [ChangePasswordController::class, 'updatePassword'])->name('changePassword');
+
+});
+
+
+
+
+
+
+
+
+
+// Seeker Dashboard
+
+
+
+
+
+// Admin Dashboard ^_^
+
+
+
+
+ 
+
+/**end providers dashbord*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Route::get('/new_project',[ProjectsController::class,'create']);
 // Route::post('/save_project',[ProjectsController::class,'store']);
