@@ -16,6 +16,7 @@ return array(
     'App\\Http\\Controllers\\Auth\\VerificationController' => $baseDir . '/app/Http/Controllers/Auth/VerificationController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
+    'App\\Http\\Controllers\\Seeker\\MainController' => $baseDir . '/app/Http/Controllers/Seeker/MainController.php',
     'App\\Http\\Controllers\\admin\\CommentsController' => $baseDir . '/app/Http/Controllers/admin/CommentsController.php',
     'App\\Http\\Controllers\\admin\\ComplaintController' => $baseDir . '/app/Http/Controllers/admin/ComplaintController.php',
     'App\\Http\\Controllers\\admin\\HomeController' => $baseDir . '/app/Http/Controllers/admin/HomeController.php',
@@ -23,6 +24,7 @@ return array(
     'App\\Http\\Controllers\\admin\\SectionController' => $baseDir . '/app/Http/Controllers/admin/SectionController.php',
     'App\\Http\\Controllers\\admin\\SkillsController' => $baseDir . '/app/Http/Controllers/admin/SkillsController.php',
     'App\\Http\\Controllers\\admin\\offersController' => $baseDir . '/app/Http/Controllers/admin/offersController.php',
+    'App\\Http\\Controllers\\website\\LandPage' => $baseDir . '/app/Http/Controllers/website/LandPage.php',
     'App\\Http\\Controllers\\website\\ProjectsController' => $baseDir . '/app/Http/Controllers/website/ProjectsController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
@@ -34,7 +36,6 @@ return array(
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Models\\Comments' => $baseDir . '/app/Models/Comments.php',
-
     'App\\Models\\Permission' => $baseDir . '/app/Models/Permission.php',
     'App\\Models\\Projects' => $baseDir . '/app/Models/Projects.php',
     'App\\Models\\Role' => $baseDir . '/app/Models/Role.php',

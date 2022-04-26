@@ -32,13 +32,13 @@ Route::get('/', function () {
 
 Auth::routes(['verify'=>true]);
 
-// website ^_^
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 // LandingPage ^_^
 
-Route::get('/landingpage', [LandPage::class, 'showHome'])->name('landingpage');
-
+Route::get('/home', [LandPage::class, 'showHome'])->name('home');
+//pages ^_^
+Route::get('/personals_display', [LandPage::class,'ShowPerson'])->name('personals_display');
+Route::get('/jobs_display', [LandPage::class,'ShowJobs'])->name('jobs_display');
 // Seeker Dashboard
 
 Route::get('/seeker',[MainController::class, 'home'])->name('seeker');
