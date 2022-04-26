@@ -1463,5 +1463,19 @@ background: white;
   font-weight: 600;
 }
 
+.btn{
+  
+  border: none;
+  font-family: inherit;
+}
+.a_none{
+  
+  text-decoration: none;
+}
+.my{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 
 
