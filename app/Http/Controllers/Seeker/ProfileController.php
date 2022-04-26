@@ -72,6 +72,7 @@ class ProfileController extends Controller
         'Job_title'=>$request->Job_title,'image'=>$imageName,'describe'=>$request->describe]);
        
          return redirect('personalinfo')->with('completed', 'it has been saved!');
+        // return ('home');
     }
 
     /**
