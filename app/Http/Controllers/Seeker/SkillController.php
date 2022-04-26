@@ -1,13 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Seeker;
+namespace App\Http\Controllers;
+
+use App\Models\skill;
 use App\Http\Controllers\Controller;
-use App\Models\work;
-use Error;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-
-class WorkController extends Controller
+class SkillController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,8 +15,8 @@ class WorkController extends Controller
      */
     public function index()
     {
-        $work=work::where([['status',1]])->get();
-        return view('website.SeekerPanal.works.index',['data'=>$work]);
+        $skill=skill::all();
+        return view('website.SeekerPanal.skills.index',['data'=>$skill]);
     }
 
     /**
@@ -27,7 +26,7 @@ class WorkController extends Controller
      */
     public function create()
     {
-        return view('website.SeekerPanal.works.create');
+        return view('website.SeekerPanal.skills.create');
     }
 
     /**
@@ -40,27 +39,23 @@ class WorkController extends Controller
     {
         Validator::validate($request->all(),[
             'title'=>['required','min:3','max:25'],
-            'describe'=>['required','min:70','max:250'],
-            'date_end'=>['required']
+           
 
 
         ],[
             'title.required'=>'يرجى ادخال العنوان',
             'title.min'=>'جب ان يكون العنوان اكبر من 3 حرف', 
             'title.max'=>'يجب ان يكون العنوان اقل من 25 حرف', 
-            'describe.required'=>'يرجى ادخال الوصف',
-            'describe.min'=>'يجب ان يكون العنوان اكبر  من 70 حرف', 
-            'describe.max'=>'يجب ان يكون العنوان اقل من 250 حرف',
-            'date_end.required'=>'يرجى ادخال التاريخ',
+            
 
            
         ]);
         
         $imageName = time().'.'.$request->image->extension();  
         $request->image->move(public_path('images'), $imageName);
-        $work = work::create(['title'=>$request->title,'date_end'=>$request->date_end,'image'=>$imageName,'describe'=>$request->describe]);
+        $skill = skill::create(['title'=>$request->title,'image'=>$imageName]);
        
-         return redirect('works')->with('completed', 'it has been saved!');
+         return redirect('skills')->with('completed', 'it has been saved!');
     }
 
     /**
@@ -71,14 +66,14 @@ class WorkController extends Controller
      */
     public function show($id)
     {
-        $work=work::find($id);
-        return view('website.SeekerPanal.works.show',['data'=>$work]);
+        $skill=skill::find($id);
+        return view('website.SeekerPanal.skills.show',['data'=>$skill]);
     }
 
     public function edit($id)
     {
-        $work=work::find($id);
-        return view('website.SeekerPanal.works.edit',['data'=>$work]);
+        $skill=skill::find($id);
+        return view('website.SeekerPanal.skills.edit',['data'=>$skill]);
     }
     public function update(Request $request, $id)
     {
@@ -94,17 +89,17 @@ class WorkController extends Controller
         }else{
             $imageName =$request->oldimg; 
         }
-        $work = work::where('id',$id)->update(['title'=>$request->title,'date_end'=>$request->date_end,'image'=>$imageName,'describe'=>$request->describe]);
-        return redirect('/works')->with('completed', ' ithas been saved!');
+        $skill = skill::where('id',$id)->update(['title'=>$request->title,'image'=>$imageName,]);
+        return redirect('/skills')->with('completed', ' ithas been saved!');
 
     }
 
   
     public function destroy($id)
     {
-        $old=work::where('id',$id)->value('status');
-        work::where('id',$id)->update(['status'=>($old==1)? 0 :1]);
-        return redirect('/works')->with('completed', 'it has been deleted');
+        $old=skill::where('id',$id)->value('status');
+        skill::where('id',$id)->update(['status'=>($old==1)? 0 :1]);
+        return redirect('/skills')->with('completed', 'it has been deleted');
 
     }
 }
