@@ -13,6 +13,7 @@ use App\Http\Controllers\providers\WorkController;
 
 
 use App\Http\Controllers\HomeController as ControllersHomeController;
+use App\Http\Controllers\website\LandPage;
 use App\Http\Controllers\Seeker\MainController;
 use Illuminate\Support\Facades\Route;
 
@@ -38,7 +39,9 @@ Route::get('/', function () {
 // website ^_^
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
+// LandingPage ^_^
 
+Route::get('/landingpage', [LandPage::class, 'showHome'])->name('landingpage');
 
 // Seeker Dashboard
 
@@ -94,6 +97,7 @@ Route::resource('/works',WorkController::class);
 Route::get('/new_project',[ProjectsController::class,'create']);
 Route::post('/save_project',[ProjectsController::class,'store']);
 /** end of project routes  */
+
 // Route::get('/new_project',[ProjectsController::class,'create']);
 // Route::post('/save_project',[ProjectsController::class,'store']);
 /** end of project routes  */
