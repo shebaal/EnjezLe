@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+
+
+
 :root {
     --light: #ecf1f4;
     --white: #FFFFFF;
@@ -19,7 +24,7 @@ body {
     margin: 0;
     padding: 0;
     color: var(--dark_blue);
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-weight: 500;
     font-family: 'Tajawal', sans-serif;
     direction: rtl;
@@ -114,7 +119,9 @@ body {
     background: var(--beauty);
     color: var(--light);
 }
-
+.txt_white{
+    color: white!important;
+}
 .login-button:hover {
     color: var(--dark_blue);
     background-color: var(--light_blu);
@@ -433,7 +440,7 @@ body {
 /*________________description__________________*/
 
 .desc {
-    background-image: url(../svg/undraw_thought_process_re_om58.svg);
+    /* background-image: url(../svg/undraw_thought_process_re_om58.svg); */
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
@@ -466,11 +473,11 @@ body {
 .How_to_Start>div:hover {}
 
 .How_to_Start>div:hover {
-    border-bottom: 2px solid var(--light_blu);
+    /* border-bottom: 2px solid var(--light_blu);
     transform: translateY(10px);
     background-color: #f0f4f654;
     border-radius: 7px;
-    box-shadow: 1px 2px 3px var(--white);
+    box-shadow: 1px 2px 3px var(--white); */
 }
 
 .How_start_icon {
@@ -491,7 +498,7 @@ body {
 }
 
 .How_start_icon1:hover {
-    border-bottom: 2px solid #a9c0c6;
+    /* border-bottom: 2px solid #a9c0c6; */
 }
 
 .How_start_icon2 {

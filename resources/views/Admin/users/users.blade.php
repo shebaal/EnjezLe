@@ -11,23 +11,23 @@
                 <div class="relative">
                     <div
                     class="pointer-events-none absolute inset-y-0 left-0 flex items-center px-2 text-gray-700">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    {{-- <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                    </svg>
+                    </svg> --}}
                 </div>
               
 
                 <form action="">
                     <div class="relative w-32 border-none mx-2">
-                       
-                        <select 
+                       {{-- correct one --}}
+                        {{-- <select 
                          name="selecting_role" class="px-4 py-3 w-full rounded-md bg-gray-50 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
                           
                           @foreach ($users as $selecting) 
                           <option class="pt-6" value={{$selecting->id}}>{{$selecting->role->name}}</option>
                       
                             @endforeach
-                        </select>
+                        </select> --}}
                      
                  
                 </div>
@@ -118,9 +118,13 @@
 
                               
 
-                                <td
+                                {{-- <td
                                     class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 text-gray-500">
-                                {{$users->role->name}}</td>
+                                {{$users->role->name}}</td> --}}
+
+                                <td
+                                class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 text-gray-500">
+                                طالب خدمة</td>
 
                                     <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
                                         @if($users->status==1)

@@ -1,13 +1,25 @@
 
 
 
-
+{{-- 
 
 @extends('website.SeekerPanel.Layout.sidebar')
-@section('seeker_side')
+@section('seeker_side') --}}
 
 
-<section class="section__main">
+
+
+<link href="http://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet">
+<link href="assests/css/seeker.css" rel="stylesheet">
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Tajawal:wght@200;400&display=swap');
+
+    *{
+        font-family: 'Tajawal', sans-serif;   
+    }
+        </style>
+
+<section class="section__main" style="width: 100%">
   
     <div class="bg-primary flex flex-justify-between flex-align-center banner">
         <div class="banner__img">
@@ -20,12 +32,12 @@
           </div>
       <div>
         
-        <h1 class="text-4xl text-white mb-2"> أضف مهاره ليتم </h1>
-        <h1 class="text-4xl text-white mb-8 ">  ايصال الاشعارات لك</h1>
+        <h1 class="text-4xl text-white mb-2"> اكمل بيانات الشخصية   </h1>
+        {{-- <h1 class="text-4xl text-white mb-8 ">  ايصال الاشعارات لك</h1> --}}
         
-        <div class="banner__cta">
+        {{-- <div class="banner__cta">
           <a href="{{route('seeker_addskill')}}" class="button bg-secondary text-white py-4 px-8 a_none ">اضافة مهاره</a>
-        </div>
+        </div> --}}
       </div>
     
     </div>
@@ -90,9 +102,17 @@
     </form>
     </div>
   </div>
+
+  
+  <div class="">
+    <div class="banner__cta mx my">
+      <a href="{{route('seeker')}}" class="button text-white py-4 px-8 a_none bg-save">حفظ </a>
+    </div>
+  </div>
  
   </section>
 
+   
+    
 
-
-  @endsection
+  {{-- @endsection --}}

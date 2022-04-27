@@ -472,6 +472,9 @@ h1 {
 .text-gray-500 {
   color: #919EAB;
 }
+.text-black{
+color: rgb(15, 15, 15);
+}
 
 .fill-white {
   fill: #FFFFFF
@@ -1045,7 +1048,7 @@ background: white;
 .container_home .card {
   width: 100%;
   max-width: 100%;
-  min-height: 620px;
+  min-height: 700px;
   overflow: hidden;
   border-radius: 4px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -1096,6 +1099,8 @@ background: white;
 }
 .container_home .card .card-info .info-title {
   padding-bottom: 15px;
+  padding-top: 25px;
+  height: 60px;
 }
 .container_home .card .card-info .info-title h3 {
   font-weight: 400;
@@ -1429,12 +1434,11 @@ background: white;
 .rating {
   display: flex;
   align-items: center;
+  justify-content: center;
   -moz-column-gap: 0.75rem;
-       column-gap: 0.75rem;
-  background-color: #fff;
+  column-gap: 0.75rem;
   padding: 1rem 1.25rem;
   border-radius: 1rem;
-  box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, 0.03);
 }
 .rating__stars {
   position: relative;
@@ -1480,5 +1484,20 @@ background: white;
   direction: rtl;
 }
 
+.mx{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.my{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bg-save{
+  background-color: #186D80;
+  
+}
+.text-right{
+  text-align: right;
+}
 
 

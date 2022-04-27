@@ -33,7 +33,7 @@
                 <li><a href="{{ route("jobs_display") }}">تصفح المشاريع</a></li>
                 <li><a href="">اضف مشروع</a></li>
                 <li><a href="{{ route("login") }}">تسجيل دخول</a></li>
-                <li><button class="login-button" ><a href="{{ route("register") }}"> إنشاء حساب</a></button></li>
+                <li><button class=" login-button" ><a class="txt_white" href="{{ route("register") }}"> إنشاء حساب</a></button></li>
             </ul>
         </nav>
 </div>
@@ -195,4 +195,3 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </html>
-r

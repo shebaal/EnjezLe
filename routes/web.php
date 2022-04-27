@@ -28,9 +28,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Auth::routes(['verify'=>true]);
 
@@ -41,13 +41,14 @@ Auth::routes(['verify'=>true]);
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 // LandingPage ^_^
 
-// Route::get('/landingpage', [LandPage::class, 'showHome'])->name('landingpage');
+Route::get('/landingpage', [LandPage::class, 'showHome'])->name('landingpage');
+Route::get('/', [LandPage::class, 'showHome'])->name('landingpage');
 
 Route::group(['middleware'=>'auth'],function(){
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 // LandingPage ^_^
 
-Route::get('/home', [LandPage::class, 'showHome'])->name('home');
+// Route::get('/', [LandPage::class, 'showHome'])->name('home');
 //pages ^_^
 Route::get('/personals_display', [LandPage::class,'ShowPerson'])->name('personals_display');
 Route::get('/jobs_display', [LandPage::class,'ShowJobs'])->name('jobs_display');
@@ -72,10 +73,19 @@ Route::group(['middleware'=>'role:admin'],function(){
 
 
 // Sidebar
+// Route::get('/admin', [homeController::class, 'home'])->name('admin');
+// Route::get('/admin/section', [sectionController::class, 'section'])->name('section');
+// Route::get('/admin/skills', [skillsController::class, 'index'])->name('skills');
+// Route::get('/admin/projects', [projectController::class, 'index'])->name('projects');
+
 Route::get('/admin', [homeController::class, 'home'])->name('admin');
+Route::get('/admin/users', [homeController::class, 'users'])->name('admin_users');
 Route::get('/admin/section', [sectionController::class, 'section'])->name('section');
 Route::get('/admin/skills', [skillsController::class, 'index'])->name('skills');
 Route::get('/admin/projects', [projectController::class, 'index'])->name('projects');
+Route::get('/admin/comments', [commentsController::class, 'index'])->name('comments');
+Route::get('/admin/offers', [offersController::class, 'index'])->name('offers');
+Route::get('/admin/complaint', [complaintController::class, 'index'])->name('complaint');
 
 
 // section CRUD
@@ -108,16 +118,16 @@ Route::get('/admin/projects_report', [projectController::class, 'report'])->name
  Seeker Dashboard
 *------------------------**/
  Route::group(['middleware'=>'role:seeker'],function(){
-    Route::get('/seeker',[MainController::class, 'home'])->name('seeker');
-    Route::get('/seeker_wallet', [MainController::class, 'wallet'])->name('seeker_wallet');
-    Route::get('/seeker_projects', [MainController::class, 'projects'])->name('seeker_projects');
+    // Route::get('/seeker',[MainController::class, 'home'])->name('seeker');
+    // Route::get('/seeker_wallet', [MainController::class, 'wallet'])->name('seeker_wallet');
+    // Route::get('/seeker_projects', [MainController::class, 'projects'])->name('seeker_projects');
    
-    Route::get('/seeker_notification', [MainController::class, 'notification'])->name('seeker_notification');
-    Route::get('/seeker_works',[MainController::class, 'works'])->name('seeker_works');
+    // Route::get('/seeker_notification', [MainController::class, 'notification'])->name('seeker_notification');
+    // Route::get('/seeker_works',[MainController::class, 'works'])->name('seeker_works');
     
-    Route::get('/seeker_addskill',[MainController::class, 'skill'])->name('seeker_addskill');
-    Route::get('/seeker_addwork',[MainController::class, 'addwork'])->name('seeker_addwork');
-    Route::get('/seeker_addpro',[MainController::class, 'addpro'])->name('seeker_addpro');
+    // Route::get('/seeker_addskill',[MainController::class, 'skill'])->name('seeker_addskill');
+    // Route::get('/seeker_addwork',[MainController::class, 'addwork'])->name('seeker_addwork');
+    // Route::get('/seeker_addpro',[MainController::class, 'addpro'])->name('seeker_addpro');
     /** front project routes */
     Route::get('/new_project',[ProjectsController::class,'create']);
     Route::post('/save_project',[ProjectsController::class,'store']);
