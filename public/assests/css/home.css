@@ -42,6 +42,7 @@ nav {
     background-color: var(--light);
     background-color: #ecf1f4cf;
     direction: rtl;
+    align-items: center;
 }
 
 

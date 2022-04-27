@@ -63,7 +63,8 @@
 #60 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #61 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #62 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#63 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#63 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #64 {main}
 
 [previous exception] [object] (PDOException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'role_id' doesn't have a default value at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:530)
@@ -133,7 +134,8 @@
 #62 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #63 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #64 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#65 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#65 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #66 {main}
 "} 
 [2022-04-24 12:09:15] local.ERROR: Cannot declare class LaratrustSetupTables, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class LaratrustSetupTables, because the name is already in use at C:\\Users\\DELL\\Desktop\\EnjezLe\\database\\migrations\\2022_04_24_120740_laratrust_setup_tables.php:7)
@@ -210,7 +212,8 @@
 #61 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #62 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #63 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #65 {main}
 
 [previous exception] [object] (PDOException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:530)
@@ -281,7 +284,8 @@
 #63 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #65 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#66 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#66 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #67 {main}
 "} 
 [2022-04-24 12:12:44] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value (SQL: insert into `users` (`name`, `email`, `password`, `updated_at`, `created_at`) values (thorya, enjezle@gmail.com, $2y$10$OCq/h03b/rTeucjqWviuG.ADZF8sLI3rYQvnIf8x2Sxo30jl9ZuPu, 2022-04-24 12:12:44, 2022-04-24 12:12:44)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value (SQL: insert into `users` (`name`, `email`, `password`, `updated_at`, `created_at`) values (thorya, enjezle@gmail.com, $2y$10$OCq/h03b/rTeucjqWviuG.ADZF8sLI3rYQvnIf8x2Sxo30jl9ZuPu, 2022-04-24 12:12:44, 2022-04-24 12:12:44)) at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:745)
@@ -350,7 +354,8 @@
 #61 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #62 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #63 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #65 {main}
 
 [previous exception] [object] (PDOException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:530)
@@ -421,7 +426,8 @@
 #63 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #65 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#66 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#66 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #67 {main}
 "} 
 [2022-04-24 12:13:16] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value (SQL: insert into `users` (`name`, `email`, `password`, `updated_at`, `created_at`) values (thorya, enjezle@gmail.com, $2y$10$ha3fsN0x5uvURYpd/RS33ezGifo3s0NqY9KbEtBnRjCOChrkMUekm, 2022-04-24 12:13:16, 2022-04-24 12:13:16)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value (SQL: insert into `users` (`name`, `email`, `password`, `updated_at`, `created_at`) values (thorya, enjezle@gmail.com, $2y$10$ha3fsN0x5uvURYpd/RS33ezGifo3s0NqY9KbEtBnRjCOChrkMUekm, 2022-04-24 12:13:16, 2022-04-24 12:13:16)) at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:745)
@@ -490,7 +496,8 @@
 #61 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #62 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #63 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #65 {main}
 
 [previous exception] [object] (PDOException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:530)
@@ -561,7 +568,8 @@
 #63 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #65 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#66 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#66 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #67 {main}
 "} 
 [2022-04-24 12:13:48] local.ERROR: SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value (SQL: insert into `users` (`name`, `email`, `password`, `updated_at`, `created_at`) values (erdah, enjezle@gmail.com, $2y$10$iIDMBIDC87yPhKRK9MqwXu5zL8Qu1qJ7ieASKdy/SuOi8brya7dbm, 2022-04-24 12:13:48, 2022-04-24 12:13:48)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value (SQL: insert into `users` (`name`, `email`, `password`, `updated_at`, `created_at`) values (erdah, enjezle@gmail.com, $2y$10$iIDMBIDC87yPhKRK9MqwXu5zL8Qu1qJ7ieASKdy/SuOi8brya7dbm, 2022-04-24 12:13:48, 2022-04-24 12:13:48)) at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:745)
@@ -630,7 +638,8 @@
 #61 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #62 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #63 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #65 {main}
 
 [previous exception] [object] (PDOException(code: HY000): SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:530)
@@ -701,7 +710,8 @@
 #63 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #64 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #65 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#66 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#66 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #67 {main}
 "} 
 [2022-04-24 17:59:08] local.ERROR: Connection could not be established with host "ssl://smtp.gmail.com:465": stream_socket_client(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server.  {"exception":"[object] (Symfony\\Component\\Mailer\\Exception\\TransportException(code: 0): Connection could not be established with host \"ssl://smtp.gmail.com:465\": stream_socket_client(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server.  at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\symfony\\mailer\\Transport\\Smtp\\Stream\\SocketStream.php:154)
@@ -769,7 +779,8 @@
 #60 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #61 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #62 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#63 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#63 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #64 {main}
 "} 
 [2022-04-24 18:35:54] local.ERROR: Method App\Http\Controllers\admin\HomeController::index does not exist. {"userId":4,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\admin\\HomeController::index does not exist. at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
@@ -818,7 +829,8 @@
 #41 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #42 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #43 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#44 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#44 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #45 {main}
 "} 
 [2022-04-24 18:36:22] local.ERROR: Method App\Http\Controllers\admin\HomeController::index does not exist. {"userId":4,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\admin\\HomeController::index does not exist. at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
@@ -867,7 +879,8 @@
 #41 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #42 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #43 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#44 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#44 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #45 {main}
 "} 
 [2022-04-24 18:36:26] local.ERROR: Method App\Http\Controllers\admin\HomeController::index does not exist. {"userId":4,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\admin\\HomeController::index does not exist. at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
@@ -916,10 +929,12 @@
 #41 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #42 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #43 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#44 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#44 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #45 {main}
 "} 
-[2022-04-24 18:39:57] local.ERROR: View [website.layout.headerFooter] not found. {"view":{"view":"C:\\Users\\DELL\\Desktop\\EnjezLe\esources\\views\\website\\home.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-916053632 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#338</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-04-24 18:39:57] local.ERROR: View [website.layout.headerFooter] not found. {"view":{"view":"C:\\Users\\DELL\\Desktop\\EnjezLe\
+esources\\views\\website\\home.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-916053632 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#338</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-916053632\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -979,7 +994,8 @@
 #51 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #52 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #53 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#54 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#54 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #55 {main}
 
 [previous exception] [object] (InvalidArgumentException(code: 0): View [website.layout.headerFooter] not found. at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
@@ -1038,10 +1054,12 @@
 #51 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #52 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #53 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#54 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#54 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #55 {main}
 "} 
-[2022-04-24 18:41:33] local.ERROR: View [website.layout.headerFooter] not found. {"view":{"view":"C:\\Users\\DELL\\Desktop\\EnjezLe\esources\\views\\website\\home.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-152229492 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#338</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-04-24 18:41:33] local.ERROR: View [website.layout.headerFooter] not found. {"view":{"view":"C:\\Users\\DELL\\Desktop\\EnjezLe\
+esources\\views\\website\\home.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-152229492 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#338</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-152229492\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -1101,7 +1119,8 @@
 #51 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #52 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #53 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#54 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#54 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #55 {main}
 
 [previous exception] [object] (InvalidArgumentException(code: 0): View [website.layout.headerFooter] not found. at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
@@ -1160,7 +1179,8 @@
 #51 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #52 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #53 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#54 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#54 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #55 {main}
 "} 
 [2022-04-24 20:53:34] local.ERROR: Method App\Http\Controllers\admin\HomeController::index does not exist. {"userId":6,"exception":"[object] (BadMethodCallException(code: 0): Method App\\Http\\Controllers\\admin\\HomeController::index does not exist. at C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php:68)
@@ -1213,10 +1233,12 @@
 #45 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #46 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #47 C:\\Users\\DELL\\Desktop\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#48 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#48 C:\\Users\\DELL\\Desktop\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #49 {main}
 "} 
-[2022-04-25 11:08:57] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:08:57] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1247,7 +1269,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:08:58] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:08:58] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1277,10 +1300,12 @@
 #25 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
 #26 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #27 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #29 {main}
 "} 
-[2022-04-25 11:09:02] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:02] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1311,7 +1336,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:03] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:03] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1341,10 +1367,12 @@
 #25 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
 #26 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #27 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #29 {main}
 "} 
-[2022-04-25 11:09:03] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:03] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1375,7 +1403,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:07] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:07] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1405,10 +1434,12 @@
 #25 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
 #26 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #27 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #29 {main}
 "} 
-[2022-04-25 11:09:07] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:07] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1439,7 +1470,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:08] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:08] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1470,7 +1502,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:12] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:12] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1501,7 +1534,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:13] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:13] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1532,7 +1566,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:17] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:17] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1563,7 +1598,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:18] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:18] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1594,7 +1630,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:22] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:22] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1625,7 +1662,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:23] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:23] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1656,7 +1694,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:27] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:27] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1687,7 +1726,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:28] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:28] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1718,7 +1758,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:32] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:32] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1749,7 +1790,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:38] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:38] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1780,7 +1822,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:42] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:42] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1811,7 +1854,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:44] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:44] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1842,7 +1886,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:47] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:47] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1873,7 +1918,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:48] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:48] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1904,7 +1950,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:52] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:52] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1935,7 +1982,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:53] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:53] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1966,7 +2014,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:57] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:57] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -1997,7 +2046,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:09:58] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:09:58] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2028,7 +2078,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:02] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:02] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2059,7 +2110,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:03] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:03] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2090,7 +2142,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:08] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:08] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2121,7 +2174,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:13] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:13] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2152,7 +2206,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:17] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:17] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2183,7 +2238,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:19] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:19] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2214,7 +2270,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:22] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:22] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2245,7 +2302,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:23] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:23] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2276,7 +2334,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:27] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:27] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2307,7 +2366,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:28] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:28] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2338,7 +2398,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:28] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:28] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2368,10 +2429,12 @@
 #25 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
 #26 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #27 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #29 {main}
 "} 
-[2022-04-25 11:10:32] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:32] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2402,7 +2465,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:33] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:33] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2432,10 +2496,12 @@
 #25 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
 #26 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #27 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #29 {main}
 "} 
-[2022-04-25 11:10:34] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:34] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2466,7 +2532,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:37] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:37] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2497,7 +2564,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:38] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:38] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2527,10 +2595,12 @@
 #25 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
 #26 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #27 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#28 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #29 {main}
 "} 
-[2022-04-25 11:10:39] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:39] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2561,7 +2631,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:42] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:42] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2592,7 +2663,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:44] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:44] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2623,7 +2695,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:48] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:48] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2654,7 +2727,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:52] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:52] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2685,7 +2759,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:10:54] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\outes\\web.php:35)
+[2022-04-25 11:10:54] local.ERROR: Undefined constant "LandingPage" {"exception":"[object] (Error(code: 0): Undefined constant \"LandingPage\" at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+outes\\web.php:35)
 [stacktrace]
 #0 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
 #1 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(430): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\DELL\\\\D...')
@@ -2716,7 +2791,8 @@
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
-[2022-04-25 11:12:58] local.ERROR: Call to undefined function rout() {"view":{"view":"C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\esources\\views\\website\\layout\\headerFooter.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1352071943 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#338</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-04-25 11:12:58] local.ERROR: Call to undefined function rout() {"view":{"view":"C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\
+esources\\views\\website\\layout\\headerFooter.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1352071943 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#338</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1352071943\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -2781,7 +2857,8 @@
 #56 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #57 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #58 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#59 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#59 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #60 {main}
 
 [previous exception] [object] (Error(code: 0): Call to undefined function rout() at C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\storage\\framework\\views\\6712cef9402a2a85211e6a3015e6765d9cf0a23c.php:32)
@@ -2845,10 +2922,12 @@
 #56 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #57 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #58 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#59 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
+#59 C:\\Users\\DELL\\Desktop\\مشروع رواد\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('C:\\\\Users\\\\DELL\\\\D...')
 #60 {main}
 "} 
-[2022-04-26 10:18:00] local.ERROR: Attempt to read property "name" on null {"view":{"view":"D:\\Road Project\\EnjezLe\esources\\views\\Admin\\users\\users.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-913403312 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#356</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-04-26 10:18:00] local.ERROR: Attempt to read property "name" on null {"view":{"view":"D:\\Road Project\\EnjezLe\
+esources\\views\\Admin\\users\\users.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-913403312 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#356</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-913403312\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -2931,7 +3010,8 @@
 #50 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #51 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #52 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #54 {main}
 
 [previous exception] [object] (ErrorException(code: 0): Attempt to read property \"name\" on null at D:\\Road Project\\EnjezLe\\storage\\framework\\views\\9b4bf175b7f2961ab367aac9292947815a5d9fcc.php:27)
@@ -2989,7 +3069,8 @@
 #50 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #51 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #52 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #54 {main}
 "} 
 [2022-04-26 10:18:21] local.ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enjezle.complaints' doesn't exist (SQL: select * from `complaints`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enjezle.complaints' doesn't exist (SQL: select * from `complaints`) at D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:745)
@@ -3048,7 +3129,8 @@
 #51 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #52 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #53 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#54 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#54 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #55 {main}
 
 [previous exception] [object] (PDOException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enjezle.complaints' doesn't exist at D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:397)
@@ -3109,10 +3191,12 @@
 #53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #54 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #55 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#56 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#56 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #57 {main}
 "} 
-[2022-04-26 11:20:58] local.ERROR: Attempt to read property "name" on null {"view":{"view":"D:\\Road Project\\EnjezLe\esources\\views\\Admin\\users\\users.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-199620482 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#356</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-04-26 11:20:58] local.ERROR: Attempt to read property "name" on null {"view":{"view":"D:\\Road Project\\EnjezLe\
+esources\\views\\Admin\\users\\users.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-199620482 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#356</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-199620482\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -3195,7 +3279,8 @@
 #50 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #51 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #52 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #54 {main}
 
 [previous exception] [object] (ErrorException(code: 0): Attempt to read property \"name\" on null at D:\\Road Project\\EnjezLe\\storage\\framework\\views\\9b4bf175b7f2961ab367aac9292947815a5d9fcc.php:27)
@@ -3253,10 +3338,12 @@
 #50 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #51 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #52 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #54 {main}
 "} 
-[2022-04-26 11:21:34] local.ERROR: Attempt to read property "name" on null {"view":{"view":"D:\\Road Project\\EnjezLe\esources\\views\\Admin\\users\\users.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-155527140 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#356</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-04-26 11:21:34] local.ERROR: Attempt to read property "name" on null {"view":{"view":"D:\\Road Project\\EnjezLe\
+esources\\views\\Admin\\users\\users.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-155527140 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#356</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-155527140\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -3339,7 +3426,8 @@
 #50 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #51 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #52 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #54 {main}
 
 [previous exception] [object] (ErrorException(code: 0): Attempt to read property \"name\" on null at D:\\Road Project\\EnjezLe\\storage\\framework\\views\\9b4bf175b7f2961ab367aac9292947815a5d9fcc.php:27)
@@ -3397,7 +3485,8 @@
 #50 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #51 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #52 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #54 {main}
 "} 
 [2022-04-26 12:15:17] local.ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enjezle.complaints' doesn't exist (SQL: select * from `complaints`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enjezle.complaints' doesn't exist (SQL: select * from `complaints`) at D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:745)
@@ -3456,7 +3545,8 @@
 #51 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #52 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #53 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#54 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#54 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #55 {main}
 
 [previous exception] [object] (PDOException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enjezle.complaints' doesn't exist at D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:397)
@@ -3517,7 +3607,8 @@
 #53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #54 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #55 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#56 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#56 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #57 {main}
 "} 
 [2022-04-26 12:15:58] local.ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enjezle.complaints' doesn't exist (SQL: select * from `complaints`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enjezle.complaints' doesn't exist (SQL: select * from `complaints`) at D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:745)
@@ -3576,7 +3667,8 @@
 #51 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #52 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #53 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#54 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#54 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #55 {main}
 
 [previous exception] [object] (PDOException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enjezle.complaints' doesn't exist at D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:397)
@@ -3637,10 +3729,12 @@
 #53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #54 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #55 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#56 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#56 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #57 {main}
 "} 
-[2022-04-26 12:19:38] local.ERROR: Attempt to read property "name" on null {"view":{"view":"D:\\Road Project\\EnjezLe\esources\\views\\Admin\\users\\users.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-731933629 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#356</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-04-26 12:19:38] local.ERROR: Attempt to read property "name" on null {"view":{"view":"D:\\Road Project\\EnjezLe\
+esources\\views\\Admin\\users\\users.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-731933629 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#356</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-731933629\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -3723,7 +3817,8 @@
 #50 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #51 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #52 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #54 {main}
 
 [previous exception] [object] (ErrorException(code: 0): Attempt to read property \"name\" on null at D:\\Road Project\\EnjezLe\\storage\\framework\\views\\9b4bf175b7f2961ab367aac9292947815a5d9fcc.php:27)
@@ -3781,6 +3876,7 @@
 #50 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
 #51 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
 #52 D:\\Road Project\\EnjezLe\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\esources\\server.php(16): require_once('D:\\\\Road Project...')
+#53 D:\\Road Project\\EnjezLe\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\
+esources\\server.php(16): require_once('D:\\\\Road Project...')
 #54 {main}
 "} 

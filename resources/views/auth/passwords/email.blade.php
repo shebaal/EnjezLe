@@ -4,10 +4,13 @@
 <body>
 
     <div class="loginContainer">
-        <div class="login-box">
-            <div class="login_icon_box">
-                <img src="{{ asset('assests/svg/logo.svg') }}" alt="">
-            </div>
+        <div class=" img-squares"><img src="{{ asset('assests/svg/enLogo.svg') }}" alt=""></div>
+         <div class="login-box ">
+             <div class="logo-container rest-box ">
+             <div class="login_icon_box">
+                 <img src="{{ asset('assests/svg/logo.svg') }}" alt="">
+             </div>
+         </div>
             <form class="p-3 mt-3" method="POST" action="{{ route('password.email') }}">
                 @csrf
                 <div class="user-box">

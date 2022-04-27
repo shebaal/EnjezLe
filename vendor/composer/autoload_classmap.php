@@ -27,6 +27,7 @@ return array(
     'App\\Http\\Controllers\\admin\\SkillsController' => $baseDir . '/app/Http/Controllers/admin/SkillsController.php',
     'App\\Http\\Controllers\\admin\\offersController' => $baseDir . '/app/Http/Controllers/admin/offersController.php',
     'App\\Http\\Controllers\\providers\\WorksController' => $baseDir . '/app/Http/Controllers/providers/WorksController.php',
+    'App\\Http\\Controllers\\website\\LandPage' => $baseDir . '/app/Http/Controllers/website/LandPage.php',
     'App\\Http\\Controllers\\website\\ProjectsController' => $baseDir . '/app/Http/Controllers/website/ProjectsController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
@@ -38,7 +39,6 @@ return array(
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Models\\Comments' => $baseDir . '/app/Models/Comments.php',
-
     'App\\Models\\Permission' => $baseDir . '/app/Models/Permission.php',
     'App\\Models\\Profile' => $baseDir . '/app/Models/Profile.php',
     'App\\Models\\Projects' => $baseDir . '/app/Models/Projects.php',
