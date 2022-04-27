@@ -1,5 +1,5 @@
-@extends('website.layout.headerFooter')
-@section('content')
+
+<?php $__env->startSection('content'); ?>
     <main class="hero">
         <div class='p-relative'>
             <div class="container_text">
@@ -16,16 +16,8 @@
         <div class="container_img p-relative">
 
 
-            {{-- <div class="seek-msg">
-                <div>
-                    <img src="{{ asset('assests/img/3.png') }}" alt="" srcset="">
-                </div>
-
-                <p>مرحبا</p>
-                <p>انا مصممة جرافكس اعمل في هذا المجال قرابة الخمس سنين,متاحة للعمل </p>
-                <span class="time">7:15Am</span>
-            </div> --}}
-            <img src="{{ asset('assests/svg/enLogo.svg') }}" alt="">
+            
+            <img src="<?php echo e(asset('assests/svg/enLogo.svg')); ?>" alt="">
         </div>
     </main>
     </div>
@@ -88,4 +80,6 @@
             </button>
         </div>
     </div>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('website.layout.headerFooter', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\DELL\Desktop\enj++\EnjezLe\resources\views/website/home.blade.php ENDPATH**/ ?>

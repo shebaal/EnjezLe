@@ -40,12 +40,31 @@ Auth::routes(['verify'=>true]);
 
 // website ^_^
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 // LandingPage ^_^
 
-Route::get('/landingpage', [LandPage::class, 'showHome'])->name('landingpage');
+// Route::get('/landingpage', [LandPage::class, 'showHome'])->name('landingpage');
 
 Route::group(['middleware'=>'auth'],function(){
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
+// LandingPage ^_^
+
+Route::get('/home', [LandPage::class, 'showHome'])->name('home');
+//pages ^_^
+Route::get('/personals_display', [LandPage::class,'ShowPerson'])->name('personals_display');
+Route::get('/jobs_display', [LandPage::class,'ShowJobs'])->name('jobs_display');
+// Seeker Dashboard
+
+Route::get('/seeker',[MainController::class, 'home'])->name('seeker');
+Route::get('/seeker_wallet', [MainController::class, 'wallet'])->name('seeker_wallet');
+Route::get('/seeker_projects', [MainController::class, 'projects'])->name('seeker_projects');
+Route::get('/seeker_personalinfo',[MainController::class, 'personalinfo'])->name('seeker_personalinfo');
+Route::get('/seeker_notification', [MainController::class, 'notification'])->name('seeker_notification');
+Route::get('/seeker_works',[MainController::class, 'works'])->name('seeker_works');
+
+Route::get('/seeker_addskill',[MainController::class, 'skill'])->name('seeker_addskill');
+Route::get('/seeker_addwork',[MainController::class, 'addwork'])->name('seeker_addwork');
+Route::get('/seeker_addpro',[MainController::class, 'addpro'])->name('seeker_addpro');
 
 
 /**----------------------

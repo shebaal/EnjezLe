@@ -10,16 +10,16 @@
         href="https://multiwebpress.com/wp-content/litespeed/css/6a6a912d0c7b55b537768da778032849.css?ver=32849" />
     <title> </title>
 
-    <link rel="stylesheet" href="{{ asset('assests/css/home.css') }}">
+    <link rel="stylesheet" href="<?php echo e(asset('assests/css/home.css')); ?>">
 </head>
 
 <body>
     <div class="hero_section">
         <nav>
             <div class="logo">
-                      <a href='{{ route("home") }}'>            
+                      <a href='<?php echo e(route("home")); ?>'>            
 
-                <img data-lazyloaded="1" src="{{ asset('assests/svg/logo.svg') }}" data-src="images/multiwebpress.png"
+                <img data-lazyloaded="1" src="<?php echo e(asset('assests/svg/logo.svg')); ?>" data-src="images/multiwebpress.png"
                     alt="Logo Image"><noscript><img src="images/multiwebpress.png" alt="Logo Image"></noscript>
                     </a>
             </div>
@@ -29,17 +29,17 @@
                 <div class="bars3"></div>
             </div>
             <ul class="nav-links">
-                <li><a href="{{ route("personals_display") }}">بحث عن منجز</a></li>
-                <li><a href="{{ route("jobs_display") }}">تصفح المشاريع</a></li>
+                <li><a href="<?php echo e(route("personals_display")); ?>">بحث عن منجز</a></li>
+                <li><a href="<?php echo e(route("jobs_display")); ?>">تصفح المشاريع</a></li>
                 <li><a href="">اضف مشروع</a></li>
-                <li><a href="{{ route("login") }}">تسجيل دخول</a></li>
-                <li><button class="login-button" ><a href="{{ route("register") }}"> إنشاء حساب</a></button></li>
+                <li><a href="<?php echo e(route("login")); ?>">تسجيل دخول</a></li>
+                <li><button class="login-button" ><a href="<?php echo e(route("register")); ?>"> إنشاء حساب</a></button></li>
             </ul>
         </nav>
 </div>
         <main>
-            @yield('content')
-            {{-- here --}}
+            <?php echo $__env->yieldContent('content'); ?>
+            
         </main>
 
         
@@ -195,4 +195,4 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </html>
-r
+r<?php /**PATH C:\Users\DELL\Desktop\enj++\EnjezLe\resources\views/website/layout/headerFooter.blade.php ENDPATH**/ ?>
