@@ -63,7 +63,9 @@
     margin-bottom: 14px;
     justify-content: center;
 }
-
+.verfy .login-box{
+    width: 400px;
+}
 .login-box {
     position: absolute;
     top: 50%;
@@ -495,15 +497,16 @@ a {
 /************/
 
 .verfy {
-    color: var(--light);
+    color: var(--beauty);
 }
 
-.verfy button {
-    text-decoration: none;
-    background-color: var(--light);
-    color: var(--beauty);
-    height: 44px;
-    width: 100%;
+
+ .verfy button {
+        text-decoration: none;
+        background-color: #186d80;
+        color: #e9eff0;
+        height: 44px;
+        width: 100%;
 }
 
 .verfy button:hover {

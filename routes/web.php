@@ -12,8 +12,6 @@ use App\Http\Controllers\providers\WorkController;
 use App\Http\Controllers\Auth\ChangePasswordController;
 use App\Http\Controllers\Auth\logoutController;
 
-
-
 use App\Http\Controllers\HomeController as ControllersHomeController;
 use App\Http\Controllers\website\LandPage;
 use App\Http\Controllers\Seeker\MainController;
@@ -40,14 +38,14 @@ Auth::routes(['verify'=>true]);
 
 // website ^_^
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
 // LandingPage ^_^
 
 Route::get('/landingpage', [LandPage::class, 'showHome'])->name('landingpage');
 
 Route::group(['middleware'=>'auth'],function(){
 
-
+  Route::get('/seeker_personalinfo',[MainController::class, 'personalinfo'])->name('seeker_personalinfo');
 /**----------------------
     Admin Dashboard ^_^
  *------------------------**/
@@ -94,7 +92,7 @@ Route::get('/admin/projects_report', [projectController::class, 'report'])->name
     Route::get('/seeker',[MainController::class, 'home'])->name('seeker');
     Route::get('/seeker_wallet', [MainController::class, 'wallet'])->name('seeker_wallet');
     Route::get('/seeker_projects', [MainController::class, 'projects'])->name('seeker_projects');
-    Route::get('/seeker_personalinfo',[MainController::class, 'personalinfo'])->name('seeker_personalinfo');
+   
     Route::get('/seeker_notification', [MainController::class, 'notification'])->name('seeker_notification');
     Route::get('/seeker_works',[MainController::class, 'works'])->name('seeker_works');
     
