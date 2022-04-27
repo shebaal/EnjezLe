@@ -44,7 +44,7 @@ body {
     position: fixed;
     z-index: 10;
     background-color: var(--light);
-    background-color: #ecf1f4cf;
+    background-color: #ecf1f4;
     direction: rtl;
     align-items: center;
 }

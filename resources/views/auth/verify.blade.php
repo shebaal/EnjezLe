@@ -1,11 +1,15 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 <link rel="stylesheet" href='{{ asset('assests/css/style.css') }}'>
-<div class="loginContainer verfy">
-    <div class="login-box">
-        <div class="login_icon_box">
-            <img src="{{ asset('assests/svg/logo.svg') }}" alt="">
-        </div>
+
+    <div class="loginContainer verfy">
+        <div class=" img-squares"><img src="{{ asset('assests/svg/enLogo.svg') }}" alt=""></div>
+         <div class="login-box">
+             <div class="logo-container">
+             <div class="login_icon_box">
+                 <img src="{{ asset('assests/svg/logo.svg') }}" alt="">
+             </div>
+         </div>
         <h2></h2>
         <p>لقد قمنا بارسال رسالة عبر ريدك الالكتروني الرجاء التحقق منها
         </p>

@@ -12,8 +12,6 @@ use App\Http\Controllers\providers\WorkController;
 use App\Http\Controllers\Auth\ChangePasswordController;
 use App\Http\Controllers\Auth\logoutController;
 
-
-
 use App\Http\Controllers\HomeController as ControllersHomeController;
 use App\Http\Controllers\website\LandPage;
 use App\Http\Controllers\Seeker\MainController;
@@ -66,7 +64,7 @@ Route::get('/seeker_addskill',[MainController::class, 'skill'])->name('seeker_ad
 Route::get('/seeker_addwork',[MainController::class, 'addwork'])->name('seeker_addwork');
 Route::get('/seeker_addpro',[MainController::class, 'addpro'])->name('seeker_addpro');
 
-
+  Route::get('/seeker_personalinfo',[MainController::class, 'personalinfo'])->name('seeker_personalinfo');
 /**----------------------
     Admin Dashboard ^_^
  *------------------------**/
@@ -113,7 +111,7 @@ Route::get('/admin/projects_report', [projectController::class, 'report'])->name
     Route::get('/seeker',[MainController::class, 'home'])->name('seeker');
     Route::get('/seeker_wallet', [MainController::class, 'wallet'])->name('seeker_wallet');
     Route::get('/seeker_projects', [MainController::class, 'projects'])->name('seeker_projects');
-    Route::get('/seeker_personalinfo',[MainController::class, 'personalinfo'])->name('seeker_personalinfo');
+   
     Route::get('/seeker_notification', [MainController::class, 'notification'])->name('seeker_notification');
     Route::get('/seeker_works',[MainController::class, 'works'])->name('seeker_works');
     

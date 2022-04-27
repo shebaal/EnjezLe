@@ -68,7 +68,7 @@ class LoginController extends Controller
            
         }
         else{
-        return '/landingpage';
+        return '/seeker_personalinfo';
         }
 
       
