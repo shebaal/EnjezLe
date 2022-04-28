@@ -44,28 +44,28 @@
     <h2 class="text-2xl mb-5 txt-right">البيانات الشخصية</h2>
     <div class="myform_body">
       
-    <form action="">
-    
+    <form action="/seeker/profile" method="POST" >
+    @csrf
       <section class="right bg-white porto">
         <div class="input-container">
-          <label for="name">الاسم</label>
-          <input type="text" />
+          <label for="first_name">الاسم</label>
+          <input type="text" name="first_name" require/>
         </div>
         <div class="input-container">
-          <label for="age" required>اللقب</label>
-          <input type="text" />
+          <label for="last_name" required>اللقب</label>
+          <input type="text" name="last_name" require/>
         </div>
         <div class="input-container">
           <label for="phone"> رقم الهاتف</label>
-          <input type="number" />
+          <input type="number" name="phone" require />
         </div>
         <div class="input-container">
           <label for="email">الجنس</label>
-          <input type="text" />
+          <input type="text" name="gander" />
         </div>
         <div class="input-container">
           <label for="email">الدولة</label>
-          <input type="text" />
+          <input type="text" name="country" />
         </div>
        
       </section>
@@ -85,30 +85,33 @@
       
         <div class="input-container">
           <label for="address">التخصص</label>
-          <input type="text" />
+          <input type="text" 
+          name="major"/>
         </div>
         
         <div class="input-container">
           <label for="address">المسمى الوظيفي</label>
-          <input type="text" />
+          <input type="text" name="job_title" />
         </div>
 
         <div class="input-container">
           <label for="comments">النبذه التعريفية</label>
-          <textarea name="comments" id=""></textarea>
+          <textarea name="describe" id=""></textarea>
         </div>
+        <div class="text-right">
+        
       </section>
-    
+      <div class="">
+    <div class="banner__cta mx my">
+      <button type="submit"class="button  text-white py-4 px-8 a_none bg-success">حفظ </button>
+    </div>
+  </div>
     </form>
     </div>
   </div>
 
   
-  <div class="">
-    <div class="banner__cta mx my">
-      <a href="{{route('seeker')}}" class="button text-white py-4 px-8 a_none bg-save">حفظ </a>
-    </div>
-  </div>
+  
  
   </section>
 

@@ -11,6 +11,10 @@ class Projects extends Model
     protected $fillable = [
         'title',
         'description',
-        'file'
+        'price',
+        'status',
+        'dead_line',
+        'skills',
+        'user_id'
     ];
 }

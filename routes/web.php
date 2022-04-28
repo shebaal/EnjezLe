@@ -15,6 +15,8 @@ use App\Http\Controllers\Auth\logoutController;
 use App\Http\Controllers\HomeController as ControllersHomeController;
 use App\Http\Controllers\website\LandPage;
 use App\Http\Controllers\Seeker\MainController;
+use App\Http\Controllers\Seeker\ProfileController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -64,6 +66,13 @@ Route::get('/seeker_works',[MainController::class, 'works'])->name('seeker_works
 Route::get('/seeker_addskill',[MainController::class, 'skill'])->name('seeker_addskill');
 Route::get('/seeker_addwork',[MainController::class, 'addwork'])->name('seeker_addwork');
 Route::get('/seeker_addpro',[MainController::class, 'addpro'])->name('seeker_addpro');
+
+Route::group(['prefix'=>'seeker'], function(){
+  Route::resource('/works',WorkController::class);
+  Route::resource('/profile',ProfileController::class);
+  Route::resource('/skills',SkillController::class);
+  });
+
 
   Route::get('/seeker_personalinfo',[MainController::class, 'personalinfo'])->name('seeker_personalinfo');
 /**----------------------
@@ -187,7 +196,7 @@ Route::post('/changePassword', [ChangePasswordController::class, 'updatePassword
 /**end providers dashbord*/
 
 
-
+/**seeker workcontroller route */
 
 
 
